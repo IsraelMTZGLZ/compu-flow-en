@@ -132,7 +132,7 @@
 											<div class="sp-verticalmenu-container">
 												<ul class="nav navbar-nav  menu sp_lesp level-1">
 													<li class="item-1 ">
-														<a href="<?= ("Products/SmartMag") ? './Products/SmartMag' : 'Products/SmartMag' ;?>" title="Coronavirus Prevention">"SMART-MAG" INSERTION MAGNETIC METER</a>
+														<a href="<?= ("SmartMag") ? './SmartMag' : 'SmartMag' ;?>" title="Coronavirus Prevention">"SMART-MAG" INSERTION MAGNETIC METER</a>
 													</li>
 													<li class="item-1 popup_product group">
 														<a href="16-fitness.html" title="Fitness">Magnetic meter "SMART-MAG"</a>
@@ -189,7 +189,7 @@
 														</div><span class="grower close"> </span>
 													</li> -->
 													<li class="item-1 ">
-														<a href="101-lifestyle.html" title="Lifestyle">PORTABLE ULTRASONIC DOPPLER FLOW METER C6P</a>
+														<a href="<?= ("C6_Portable_Doppler_Ultrason") ? './C6_Portable_Doppler_Ultrason' : 'C6_Portable_Doppler_Ultrason' ;?>" title="Lifestyle">PORTABLE ULTRASONIC DOPPLER FLOW METER C6P</a>
 													</li>
 													<!-- <li class="item-1  parent"><a href="107-oral-care.html" title="Oral Care">Oral Care</a>
 														<div class="dropdown-menu">

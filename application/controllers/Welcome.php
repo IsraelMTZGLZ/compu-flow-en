@@ -9,7 +9,9 @@ class Welcome extends MY_RootController {
 
 	public function index()
 	{
-		$this->_initialPage();
+		$data['class']= 'page-index';
+		$data['title'] = 'index';
+		$this->_initialPage($data);
 		$this->load->view('inicio_view');
 		$this->_finalPage();
 	}

@@ -64,7 +64,8 @@ $route['Language/spanish'] = 'LanguageSwitcher/switchLang/spanish';
 $route['Language/english'] = 'LanguageSwitcher/switchLang/english';
 
 $route['Inicio'] = 'Inicio';
-$route['Trayectoria'] = 'Informativa/Trayectoria';
+$route['SmartMag'] = 'Products/SmartMag';
+$route['C6_Portable_Doppler_Ultrason'] = 'Products/C6PortableDopplerUltrason';
 $route['Filosofia'] = 'Informativa/Filosofia';
 $route['Contacto'] = 'Informativa/Contactos';
 
