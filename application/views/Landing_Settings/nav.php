@@ -135,10 +135,10 @@
 														<a href="<?= ("SmartMag") ? './SmartMag' : 'SmartMag' ;?>" title="Coronavirus Prevention">"SMART-MAG" INSERTION MAGNETIC METER</a>
 													</li>
 													<li class="item-1 popup_product group">
-														<a href="16-fitness.html" title="Fitness">Magnetic meter "SMART-MAG"</a>
+														<a href="<?= ("EconoMag") ? './EconoMag' : 'EconoMag' ;?>" title="Fitness">"ECONO-MAG" MAGNETIC METER </a>
 													</li>
 													<li class="item-1  group">
-														<a href="117-personal-care.html" title="Personal Care">COMPU-FLOW™ c6d Fixed Doppler Meter</a>
+														<a href="<?= ("DopplerC6D") ? './DopplerC6D' : 'DopplerC6D' ;?>" title="Personal Care">COMPU-FLOW™ C6D FIXED DOPPLER METER</a>
 													</li>
 													<!-- <li class="item-1 popup_bg parent group">
 														<a href="72-family-care.html" title="Family Care">Family Care</a>

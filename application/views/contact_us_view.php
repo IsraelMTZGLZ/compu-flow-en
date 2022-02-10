@@ -48,7 +48,7 @@
                 <div id="content-contact-page" class="col-md-8 col-sm-12 col-xs-12">
                     <div class="bonus-title"><strong>Contact Us</strong></div>
                     <section class="contact-form">
-                        <form action="http://ps.ariestheme.com/themes/sp_medisine/en/contact-us" method="post" enctype="multipart/form-data">
+                        <form action="<?=base_url('email')?>" method="post" enctype="multipart/form-data">
 
 
                             <section class="form-fields">
