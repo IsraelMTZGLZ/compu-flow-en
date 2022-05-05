@@ -9,7 +9,7 @@
 
 
                         <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                            <a itemprop="item" href="index.html">
+                            <a itemprop="item" href="<?= ("Inicio") ? './Inicio' : 'Inicio' ;?>">
                                 <span itemprop="name">Home</span>
                             </a>
                             <meta itemprop="position" content="1">
@@ -17,7 +17,7 @@
 
 
                         <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                            <a itemprop="item" href="contact-us.html">
+                            <a itemprop="item" href="#">
                                 <span itemprop="name">Contact us</span>
                             </a>
                             <meta itemprop="position" content="2">
@@ -48,7 +48,7 @@
                 <div id="content-contact-page" class="col-md-8 col-sm-12 col-xs-12">
                     <div class="bonus-title"><strong>Contact Us</strong></div>
                     <section class="contact-form">
-                        <form action="<?=base_url('email')?>" method="post" enctype="multipart/form-data">
+                        <form action="" method="post" enctype="multipart/form-data">
 
 
                             <section class="form-fields">
@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
 
-                                <!-- 
+                                <!--
                                         <div class="form-group row">
                                             <label class="col-md-3 form-control-label">Attachment</label>
                                             <div class="col-md-6">
@@ -103,14 +103,15 @@
                             </section>
 
                             <footer class="form-footer text-sm-right">
-                                <style>
+                                <!-- <style>
                                     input[name=url] {
                                         display: none !important;
                                     }
                                 </style>
                                 <input type="text" name="url" value="" />
-                                <input type="hidden" name="token" value="1c0375ec7eaad576c21e7c989ed667ef" />
-                                <input class="btn btn-primary" type="submit" name="submitMessage" value="Send">
+                                <input type="hidden" name="token" value="1c0375ec7eaad576c21e7c989ed667ef" /> -->
+                                <!-- <input class="btn btn-primary" type="submit" name="submitMessage" value="Send"> -->
+                                <button class="btn btn-primary"  >Send</button>
                             </footer>
 
                         </form>
@@ -135,27 +136,27 @@
                             <label for="">Guadalajara, Jal. México:</label>
                             <div class="phone">
 
-                                <span class="icon"><i class="icon-phone-call"></i></span>
+                                <span class="icon"><i class="icon-phone-call"></i></span> 
                                 <div><label>Phone:</label> (33) 3699-3750 </div>
                             </div>
                             <div class="phone">
 
-                                <span class="icon"><i class="icon-phone-call"></i></span>
+                                 <span class="icon"><i class="icon-phone-call"></i></span> 
                                 <div><label>Phone:</label> (044) 332-261-3640 </div>
                             </div>
                             <label for="">Mails:</label>
                             <div class="email">
-                                <span class="icon"><i class="icon-mail1"></i></span>
+                                <span class="icon"><i class="icon-mail1"></i></span> 
                                 <div><label> Email:</label> <a href="mailto:contact@magentech.com">contacto@compuflow.com.mx</a></div>
                             </div>
                             <div class="email">
-                                <span class="icon"><i class="icon-mail1"></i></span>
+                                 <span class="icon"><i class="icon-mail1"></i></span>
                                 <div><label> Email:</label> <a href="mailto:contact@magentech.com">compuflowmx@outlook.com</a></div>
                             </div>
-                            <!-- <div class="opening-hours">
+                             <div class="opening-hours">
                                         <span class="icon"><i class="icon-clock"></i></span>
                                         <div>Hours: 10:00 - 18:00, Mon - Sat</div>
-                                    </div> -->
+                                    </div> 
                         </div>
                     </div>
                 </div>
@@ -169,7 +170,7 @@
         </div>
     </div>
 
-    <div class=" ">
+    <!-- <div class=" ">
         <div class="container">
             <div class="row">
                 <div class="spcustomhtml6 col-xs-12 clearfix">
@@ -180,7 +181,7 @@
                             <div class="title-module module-title"><strong>Our social media</strong></div>
                             <div class="block-content">
                                 <div class="row">
-                                    <!-- <div class="col-xs-3 col-lg-3 col-md-3">
+                                    <div class="col-xs-3 col-lg-3 col-md-3">
                                         <div class="card">
                                             <div class="card-header">
                                                 <img src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/facebook.png'); ?>" alt="..." class="card-img-top">
@@ -189,9 +190,9 @@
                                                 <h5 class="card-title">Card title</h5>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
 
-                                    <!-- <div class="col-xs-3 col-lg-3 col-md-3 d-flex justify-content-center" >
+                                    <div class="col-xs-3 col-lg-3 col-md-3 d-flex justify-content-center" >
                                         <div class="item-wrap d-flex justify-content-center">
                                             <div class="item-img item-height">
                                                 <div class="item-img-info d-flex justify-content-center">
@@ -234,49 +235,49 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> -->
-                                    <!-- <div class="col-xs-3 col-lg-3 col-md-3 ">
+                                    </div> 
+                                     <div class="col-xs-3 col-lg-3 col-md-3 ">
                                         <div class="card">
                                             <img src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/whatsapp.png'); ?>" alt="..." class="img-fluid">
                                         </div>
-                                    </div> -->
+                                    </div> 
                                 </div>
                                 <div class="owl-carousel owl-theme cat-wrap-slider">
                                     <div class="item">
                                         <div class="content-box">
-                                            <div class="image-cat"><a href="103-treatments.html" title="Pharmacy"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/facebook.png'); ?>" width="100" height="100" alt="Pharmacy" /> </a></div>
+                                            <div class="image-cat"><a href="103-treatments.html" title="Pharmacy"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/facebook.png'); ?>" width="70" height="70" alt="Pharmacy" /> </a></div>
                                             <div class="child-cat">
-                                                <div class="cat-title"><a href="103-treatments.html" title="Pharmacy"> Pharmacy </a></div>
+                                                <div class="cat-title"><a href="103-treatments.html" title="Pharmacy"> Facebook </a></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="content-box">
-                                            <div class="image-cat"><a href="117-personal-care.html" title="Personal Care"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/whatsapp.png'); ?>"width="100" height="100" alt="Personal Care" /> </a></div>
+                                            <div class="image-cat"><a href="117-personal-care.html" title="Personal Care"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/whatsapp.png'); ?>"width="70" height="70" alt="Personal Care" /> </a></div>
                                             <div class="child-cat">
-                                                <div class="cat-title"><a href="117-personal-care.html" title="Personal Care"> Personal Care </a></div>
+                                                <div class="cat-title"><a href="117-personal-care.html" title="Personal Care"> Whatsapp</a></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="content-box">
-                                            <div class="image-cat"><a href="72-family-care.html" title="Family Care"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/gmail.png'); ?>" width="100" height="100" alt="Family Care" /> </a></div>
+                                            <div class="image-cat"><a href="72-family-care.html" title="Family Care"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/gmail.png'); ?>" width="70" height="70" alt="Family Care" /> </a></div>
                                             <div class="child-cat">
-                                                <div class="cat-title"><a href="72-family-care.html" title="Family Care"> Family Care </a></div>
+                                                <div class="cat-title"><a href="72-family-care.html" title="Family Care"> Gmail </a></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="content-box">
-                                            <div class="image-cat"><a href="115-accessories.html" title="Accessories"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/instagram.png'); ?>" width="100" height="100" alt="Accessories" /> </a></div>
+                                            <div class="image-cat"><a href="115-accessories.html" title="Accessories"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/instagram.png'); ?>" width="70" height="70" alt="Accessories" /> </a></div>
                                             <div class="child-cat">
-                                                <div class="cat-title"><a href="115-accessories.html" title="Accessories"> Accessories </a></div>
+                                                <div class="cat-title"><a href="115-accessories.html" title="Accessories"> Instagram </a></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <div class="item">
+                                    <div class="item">
                                         <div class="content-box">
-                                            <div class="image-cat"><a href="16-fitness.html" title="Fitness"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/instagram.png'); ?>" width="100" height="100" alt="Fitness" /> </a></div>
+                                            <div class="image-cat"><a href="16-fitness.html" title="Fitness"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/instagram.png'); ?>" width="70" height="70" alt="Fitness" /> </a></div>
                                             <div class="child-cat">
                                                 <div class="cat-title"><a href="16-fitness.html" title="Fitness"> Fitness </a></div>
                                             </div>
@@ -284,7 +285,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="content-box">
-                                            <div class="image-cat"><a href="16-fitness.html" title="Devices"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/instagram.png'); ?>" width="100" height="100" alt="Devices" /> </a></div>
+                                            <div class="image-cat"><a href="16-fitness.html" title="Devices"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/instagram.png'); ?>" width="70" height="70" alt="Devices" /> </a></div>
                                             <div class="child-cat">
                                                 <div class="cat-title"><a href="16-fitness.html" title="Devices"> Devices </a></div>
                                             </div>
@@ -292,12 +293,12 @@
                                     </div>
                                     <div class="item">
                                         <div class="content-box">
-                                            <div class="image-cat"><a href="107-oral-care.html" title="Accessories"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/instagram.png'); ?>" width="100" height="100" alt="Accessories" /> </a></div>
+                                            <div class="image-cat"><a href="107-oral-care.html" title="Accessories"> <img class="lazyload" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/social_media/instagram.png'); ?>" width="70" height="70" alt="Accessories" /> </a></div>
                                             <div class="child-cat">
                                                 <div class="cat-title"><a href="107-oral-care.html" title="Accessories"> Accessories </a></div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -307,6 +308,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </section>

@@ -9,12 +9,16 @@
                         <div class="row">
                             <div class="newsletterContent col-xs-12 clearfix">
                                 <div class="newsletter_block_home_title">
-                                    <div class="newsletter-title-footer">SIGN UP MEDISINE NEWSLETTER</div>
-                                    <div class="newsletter-subtitle-footer">Get in now with a 30% finance deal from bionic electronics.</div>
+                                    <div class="newsletter-title-footer">Compuflow</div>
+                                    <div class="newsletter-subtitle-footer">productos con la mas alta calidad, aportando durabilidad y fiabilidad.</div>
                                 </div>
-
+                                <!--<div class="content">
+                                  <div class="image"><img class="mark-lazy lazyload" src="../../themes/sp_medisine/assets/img/index2/item-3.jpg" alt="" /></div>
+                                  <h3>Shigeo Tokuda</h3>
+                                  <p>New York, USA</p>
+                                </div>
                                 <div class="newsletterForm">
-                                    <form action="http://ps.ariestheme.com/themes/sp_medisine/en/#footer" method="post">
+                                    <form action="http://ps.magentech.com/themes/sp_medisine/en/#footer" method="post">
                                         <div class="form-group">
                                             <div class="newsletter-input-box">
                                                 <input class="inputNew grey newsletter-input" size="80" id="newsletter-input" type="text" name="email" placeholder="Enter your email" />
@@ -25,7 +29,7 @@
                                             <input type="hidden" name="action" value="0" />
                                         </div>
                                     </form>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -38,16 +42,18 @@
                     <div class="row">
                         <div class="block-links-contact clearfix">
                             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+
                                 <div class="block-info-footer">
 
                                     <div class="moduletable sp_customhtml_4_1641356399658948734
 spcustom_html">
                                         <div class="block-footer aboutus-footer">
-                                            <div class="block-footer-title"><a href="#"><img src="../img/logo.png" alt="" /></a></div>
+                                            <div class="block-footer-title"><a href="#"><img src="<?=base_url('resources/landingpage/themes/sp_medisine/img/Compu-Flow™-Flow-Meters-Logo_footer.png'); ?>" alt="" /></a></div>
                                             <div class="block-footer-content">
-                                                <p>Ofrecer a nuestros clientes productos con la mas alta calidad, aportando durabilidad, fiabilidad y exactitud en la medición de líquidos.</p>
+                                                <label for="">Mision</label>
+                                                <p>Offer our clients products with the highest quality, providing durability, confidence and accuracy in the measurement of liquid.</p>
                                                 <label for="">Vision</label>
-                                                <p>Seguir siendo la empresa líder en el ramo de la medición e instrumentación industrial, generando e innovando nuevas tecnologías que permitan la optimización de los procesos industriales.</p>
+                                                <p>To continue being the leading company in the field of industrial measurement and instrumentation, opening and innovating new technologies that allow the optimization of industrial processes.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -61,17 +67,29 @@ spcustom_html">
                                         <h4 class="title-footer"> Contact Info </h4>
                                         <div class="content-footer">
                                             <div class="phone">
-                                                <div>1-888-546-789</div>
+                                                <div>001-956-792-2683</div>
                                             </div>
                                             <div class="address">
-                                                <div>561 Wellington Road, Street 32, San Francisco</div>
+                                                <div>1920 Loop 499, Suite 107 Harlingen, TX 78550, USA</div>
+                                            </div>
+                                            <div class="phone">
+                                                <div>(33) 3699-3750</div>
+                                            </div>
+                                            <div class="phone">
+                                                <div>(044) 332-261-3640</div>
+                                            </div>
+                                            <div class="address">
+                                                <div>Guadalajara, Jal. México</div>
                                             </div>
                                             <div class="email">
-                                                <div><a href="mailto:contact@magentech.com">contact@magentech.com</a></div>
+                                                <div><a href="mailto:contacto@compuflow.com.mx">contacto@compuflow.com.mx</a></div>
                                             </div>
-                                            <div class="opening-hours">
+                                            <div class="email">
+                                                <div><a href="mailto:compuflowmx@outlook.com">compuflowmx@outlook.com</a></div>
+                                            </div>
+                                            <!--<div class="opening-hours">
                                                 <div>Hours: 10:00 - 18:00, Mon - Sat</div>
-                                            </div>
+                                            </div>-->
 
                                         </div>
                                     </div>
@@ -94,25 +112,21 @@ spfooterlinks">
                                     </h4>
                                     <ul class="links">
                                         <li>
-                                            <a href="#">About Us</a>
+                                            <a href="<?= ("Inicio") ? './Inicio' : 'Inicio' ;?>">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">My Account</a>
+                                            <a href="<?= ("Aplications") ? './Aplications' : 'Aplications' ;?>">Applications</a>
                                         </li>
                                         <li>
-                                            <a href="#">Privacy Polices</a>
+                                            <a href="<?= ("ContactUs") ? './ContactUs' : 'ContactUs' ;?>">Contact Us</a>
                                         </li>
                                         <li>
-                                            <a href="#">Terms &amp; Conditions</a>
+                                            <a href="<?= ("AboutUs") ? './AboutUs' : 'AboutUs' ;?>">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="#">Delivery Information</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Customer Feedback</a>
+                                            <a href="<?= ("Support") ? './Support' : 'Support' ;?>">Suport</a>
                                         </li>
                                     </ul>
-
                                 </div>
 
                             </div>
@@ -121,27 +135,25 @@ spfooterlinks">
                                 <div class="sp_customhtml_2_1641356399325950824
 spfooterlinks">
                                     <h4 class="title-footer">
-                                        Quick Links
+                                      Products
                                     </h4>
                                     <ul class="links">
                                         <li>
-                                            <a href="#">Special Offers</a>
+                                            <a href="<?= ("SmartMag") ? './SmartMag' : 'SmartMag' ;?>">"SMART-MAG" INSERTION MAGNETIC METER</a>
                                         </li>
                                         <li>
-                                            <a href="#">Gift Cards</a>
+                                            <a href="<?= ("EconoMag") ? './EconoMag' : 'EconoMag' ;?>">"ECONO-MAG" MAGNETIC METER</a>
                                         </li>
                                         <li>
-                                            <a href="#">F21 Red</a>
+                                            <a href="<?= ("DopplerC6D") ? './DopplerC6D' : 'DopplerC6D' ;?>">COMPU-FLOW™ C6D FIXED DOPPLER METER</a>
                                         </li>
                                         <li>
-                                            <a href="#">Privacy Policy</a>
+                                            <a href="<?= ("C6_Portable_Doppler_Ultrason") ? './C6_Portable_Doppler_Ultrason' : 'C6_Portable_Doppler_Ultrason' ;?>">PORTABLE ULTRASONIC DOPPLER FLOW METER C6P</a>
                                         </li>
                                         <li>
-                                            <a href="#">Teams of Use</a>
+                                            <a href="<?= ("ComparisonTable") ? './ComparisonTable' : 'ComparisonTable' ;?>">Comparison table with other meters.</a>
                                         </li>
-                                        <li>
-                                            <a href="#">Track your order</a>
-                                        </li>
+
                                     </ul>
 
                                 </div>
@@ -162,13 +174,11 @@ spfooterlinks">
             <div class="container">
                 <div class="row">
                     <div class="payment col-md-6 col-sm-12 col-xs-12">
-                        <div class="footer-payment">
-                            <img src="../modules/spthemeconfigurator/patterns/payments-1-1-1.png" alt="payment logos">
-                        </div>
+                      
 
                     </div>
                     <div class="block-copyright col-md-6 col-sm-12 col-xs-12">
-                        <div class="copyright">Medisine © 2020. All Rights Reserved. Designed by MagenTech.Com</div>
+                        <div class="copyright">© 2020 Compu Flow. All Rights Reserved. Designed by Maxei Code</div>
                     </div>
                 </div>
             </div>

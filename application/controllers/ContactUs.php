@@ -40,11 +40,11 @@ class ContactUs extends MY_RootController {
         $this->email->subject($subject);
         $this->email->message($message);
 
-        if ($this->email->send()) {
-            echo 'Your Email has successfully been sent.';
-        } else {
-            show_error($this->email->print_debugger());
-        }
+        // if ($this->email->send()) {
+        //     echo 'Your Email has successfully been sent.';
+        // } else {
+        //     show_error($this->email->print_debugger());
+        // }
     }
 
 	public function sendEmail($to){
@@ -55,10 +55,10 @@ class ContactUs extends MY_RootController {
 
 		$this->email->subject('Email Test');
 		$this->email->message('Testing the email class.');
-		if ( ! $this->email->send())
-		{
-			echo "sended";
-		}
+		// if ( ! $this->email->send())
+		// {
+		// 	echo "sended";
+		// }
 		// $this->email->send();
 	}
 

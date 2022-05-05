@@ -12,7 +12,7 @@
 
 
                                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                    <a itemprop="item" href="../index.html">
+                                    <a itemprop="item" href="<?= ("Inicio") ? './Inicio' : 'Inicio' ;?>">
                                         <span itemprop="name">Home</span>
                                     </a>
                                     <meta itemprop="position" content="1">
@@ -20,7 +20,7 @@
 
 
                                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                    <a itemprop="item" href="6-about-us.html">
+                                    <a itemprop="item" href="#">
                                         <span itemprop="name">About us</span>
                                     </a>
                                     <meta itemprop="position" content="2">
@@ -61,7 +61,7 @@
                                 <div class="about-container2">
                                     <div class="about-image"><img src="<?=base_url('resources/landingpage/themes/sp_medisine/img/images/about_us.png'); ?>" alt="About Image" /></div>
                                     <div class="row">
-                                        <div class="col-lg-8">
+                                        <div class="col-lg-12">
                                             <div class="block-welcome">
                                                 <div class="bonus-title"><strong>MISSION</strong></div>
                                                 <div class="bonus-content">
@@ -72,12 +72,12 @@
                                             <div class="block-welcome">
                                                 <div class="bonus-title"><strong>VISION</strong></div>
                                                 <div class="bonus-content">
-                                                    <p>To continue being the leading company in the field of industrial measurement and instrumentation, opening and innovating new technologies that allow the optimization of industrial processes..</p>
+                                                    <p>To continue being the leading company in the field of industrial measurement and instrumentation, opening and innovating new technologies that allow the optimization of industrial processes.</p>
                                                     
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <!-- <div class="col-lg-4">
                                             <div class="block-whychoose">
                                                 <div class="bonus-title"><strong>Why Choose Us</strong></div>
                                                 <div class="bonus-content">
@@ -115,9 +115,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
-                                    <div class="our-member block-ourteam">
+                                    <!-- <div class="our-member block-ourteam">
                                         <div class="bonus-title"><strong>Our team</strong></div>
                                         <div class="bonus-content">
                                             <div class="block-content">
@@ -195,8 +195,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="our-client-say block-clientsay">
+                                    </div> -->
+                                    <!-- <div class="our-client-say block-clientsay">
                                         <div class="bonus-title"><strong>Why Choose Us</strong></div>
                                         <div class="nav-style-1 hover-to-show absolute-nav">
                                             <div class="block-content">
@@ -238,7 +238,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
 
 

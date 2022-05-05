@@ -7,41 +7,17 @@
 					<div class="container">
 						<div class="row">
 							<div class="header-top-left col-md-6 col-xs-12">
-								<!-- <div class="moduletable sp_customhtml_1_16413562611871642452spcustom_html">
-									<div class="left-alert"><span class="left-alert-bg"><i class="icon-alert-triangle"></i>Covid-19 alert</span> <span>Stay at home if you feel unwell.</span></div>
-								</div> -->
-
 							</div>
 							<div class="header-top-right col-md-6 col-xs-12">
 								<div class="header-top-right-links">
 									<div class="moduletable sp_customhtml_2_16413562611508119985spcustom_html">
 										<div class="right-links">
 											<a href="https://goo.gl/maps/cxLzbTgRoSedx6S99" target="_blank">Store Location</a>
-											<!-- <a href="#">Track your orders</a> -->
 										</div>
 									</div>
 								</div>
 								<div class="header-top-right-nav">
-									 <!-- <div id="spcurrency" class="language_currency clearfix">
-										<div class="lc-selector-wrapper">
-											<div class="lc-selector dropdown js-dropdown">
-												<div class="sp-lc-title" data-toggle="dropdown">
-													<span>EUR</span>
-												</div>
-												<div class="mobile_title_only">
-													Currency
-												</div>
-												<ul class="sp-dropdown-menu">
-													<li class="current">
-														<a title="Euro" rel="nofollow" href="index6edc.html?SubmitCurrency=1&amp;id_currency=2" class="currency-item">€ EUR</a>
-													</li>
-													<li>
-														<a title="US Dollar" rel="nofollow" href="indexe3c8.html?SubmitCurrency=1&amp;id_currency=1" class="currency-item">$ USD</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>  -->
+
 									<div id="splanguage" class="language_currency clearfix">
 										<div class="lc-selector-wrapper">
 											<div class="lc-selector dropdown js-dropdown">
@@ -79,7 +55,7 @@
 							<div class="header-center-wrap">
 								<div class="box-menu1 clearfix">
 									<div id="_desktop_logo" class="logo_middle col-md-3">
-										<a href="http://ps.ariestheme.com/themes/sp_medisine/">
+										<a href="http://ps.magentech.com/themes/sp_medisine/">
 											<img class="logo img-responsive" src="<?=base_url('resources/landingpage/themes/sp_medisine/img/Compu-Flow™-Flow-Meters-Logo.webp'); ?>" alt="SP Medisine">
 										</a>
 									</div>
@@ -90,20 +66,20 @@
 										<div class="call-text-numb">
 											<div class="call-text">CALL US FREE:</div>
 											<div class="call-numb">001-956-792-2683</div>
-                                            
+
 										</div>
 									</div>
                                     <div id="call-hotline" class="col-md-3">
 										<div class="call-text-icon">
-											<i class="icon-mail1"></i>
+										 <i class="icon-mail1"></i>
 										</div>
 										<div class="call-text-numb">
 											<div class="call-text">SEND US AN EMAIL:</div>
 											<div class="call-numb">contacto@compuflow.com.mx</div>
-                                            
+
 										</div>
 									</div>
-									
+
 								</div>
 							</div>
 						</div>
@@ -140,81 +116,15 @@
 													<li class="item-1  group">
 														<a href="<?= ("DopplerC6D") ? './DopplerC6D' : 'DopplerC6D' ;?>" title="Personal Care">COMPU-FLOW™ C6D FIXED DOPPLER METER</a>
 													</li>
-													<!-- <li class="item-1 popup_bg parent group">
-														<a href="72-family-care.html" title="Family Care">Family Care</a>
-														<div class="dropdown-menu" style="width:500px">
-															<ul class="level-2">
-																<li class="item-2  parent" style="width:50%"><a href="108-herbal-tea.html" title="Herbal tea">Herbal tea</a>
-																	<div class="dropdown-menu">
-																		<ul>
-																			<li class=""><a href="117-personal-care.html" title="Personal Care">Personal Care</a></li>
-																			<li class=""><a href="118-pharmacy.html" title="Pharmacy">Pharmacy</a></li>
-																			<li class=""><a href="119-family-care.html" title="Family Care">Family Care</a></li>
-																			<li class=""><a href="120-accessories.html" title="Accessories">Accessories</a></li>
-																			<li class=""><a href="121-baby-care.html" title="Baby Care">Baby Care</a></li>
-																			<li class=""><a href="122-hair-care.html" title="Hair Care">Hair Care</a></li>
-																		</ul>
-																	</div><span class="grower close"> </span>
-																</li>
-																<li class="item-2  parent" style="width:50%"><a href="110-iron-proteins.html" title="Iron Proteins">Iron Proteins</a>
-																	<div class="dropdown-menu">
-																		<ul>
-																			<li class=""><a href="123-skin-care.html" title="Skin Care">Skin Care</a></li>
-																			<li class=""><a href="124-health-food.html" title="Health Food">Health Food</a></li>
-																			<li class=""><a href="125-protein-supplements.html" title="Protein Supplements">Protein Supplements</a></li>
-																			<li class=""><a href="126-harbal-tea.html" title="Harbal Tea">Harbal Tea</a></li>
-																			<li class=""><a href="127-iron-proteins.html" title="Iron Proteins">Iron Proteins</a></li>
-																			<li class=""><a href="128-trousers.html" title="Trousers">Trousers</a></li>
-																		</ul>
-																	</div><span class="grower close"> </span>
-																</li>
-																<li class="item-2  parent" style="width:50%"><a href="107-oral-care.html" title="Oral Care">Oral Care</a>
-																	<div class="dropdown-menu">
-																		<ul>
-																			<li class=""><a href="111-mint-tea.html" title="Mint Tea">Mint Tea</a></li>
-																			<li class=""><a href="112-lemon-tea.html" title="Lemon Tea">Lemon Tea</a></li>
-																			<li class=""><a href="113-ginger-tea.html" title="Ginger Tea">Ginger Tea</a></li>
-																			<li class=""><a href="114-herbal-tea.html" title="Herbal tea">Herbal tea</a></li>
-																			<li class=""><a href="115-accessories.html" title="Accessories">Accessories</a></li>
-																			<li class=""><a href="116-trousers.html" title="Trousers">Trousers</a></li>
-																		</ul>
-																	</div><span class="grower close"> </span>
-																</li>
-																<li class="item-2 " style="width:50%">
-																	<div class="menu-content">
-																		<p><img src="../themes/sp_medisine/assets/img/index1/popup_bg.jpg" alt="popup_bg.jpg" /></p>
-																	</div>
-																</li>
-															</ul>
-														</div><span class="grower close"> </span>
-													</li> -->
+
 													<li class="item-1 ">
 														<a href="<?= ("C6_Portable_Doppler_Ultrason") ? './C6_Portable_Doppler_Ultrason' : 'C6_Portable_Doppler_Ultrason' ;?>" title="Lifestyle">PORTABLE ULTRASONIC DOPPLER FLOW METER C6P</a>
 													</li>
-													<!-- <li class="item-1  parent"><a href="107-oral-care.html" title="Oral Care">Oral Care</a>
-														<div class="dropdown-menu">
-															<ul>
-																<li class=""><a href="111-mint-tea.html" title="Mint Tea">Mint Tea</a></li>
-																<li class=""><a href="112-lemon-tea.html" title="Lemon Tea">Lemon Tea</a></li>
-																<li class=""><a href="113-ginger-tea.html" title="Ginger Tea">Ginger Tea</a></li>
-																<li class=""><a href="114-herbal-tea.html" title="Herbal tea">Herbal tea</a></li>
-																<li class=""><a href="115-accessories.html" title="Accessories">Accessories</a></li>
-																<li class=""><a href="116-trousers.html" title="Trousers">Trousers</a></li>
-															</ul>
-														</div><span class="grower close"> </span>
-													</li> -->
-													<li class="item-1 ">
-														<a href="103-treatments.html" title="Treatments">Comparison table with other meters.</a>
-													</li>
+
 													<!-- <li class="item-1 ">
-														<a href="104-health-conditions.html" title="Health Conditions">Health Conditions</a>
-													</li>
-													<li class="item-1 ">
-														<a href="105-accessories-supplies.html" title="Accessories & Supplies">Accessories &amp; Supplies</a>
-													</li>
-													<li class="item-1 ">
-														<a href="106-health-beauty.html" title="Health & Beauty">Health &amp; Beauty</a>
+														<a href="<?= ("ComparisonTable") ? './ComparisonTable' : 'ComparisonTable' ;?>" title="Treatments">Comparison table with other meters.</a>
 													</li> -->
+
 												</ul>
 											</div>
 										</div>
@@ -241,48 +151,15 @@
 												<ul class="nav navbar-nav  menu sp_lesp level-1">
 													<li class="sp-home-layouts home">
 														<a href="<?= ("Inicio") ? './Inicio' : 'Inicio' ;?>">Home</a>
-														<div class="dropdown-menu">
-															<ul>
-																<li>
-																	<a class="sp-themelayout" title="Layout 1" href="index5ba0.html?SP_cplthemesColors=%235089fd&amp;SP_cplhomepageStyle=homepage-v1&amp;SP_cplApply=Apply">Layout 1</a>
-																</li>
-																<li>
-																	<a class="sp-themelayout" title="Layout 2" href="index01d3.html?SP_cplthemesColors=%235089fd&amp;SP_cplhomepageStyle=homepage-v2&amp;SP_cplApply=Apply">Layout 2</a>
-																</li>
-															</ul>
-														</div>
-														<span class="grower close"></span>
+
 													</li>
-													<li class="item-1  parent group"><a href="2-our-shop.html" title="Features">
-															<!-- <p class="label_hot">HOT</p> -->
+													<li class="item-1  parent group"><a href="<?= ("Aplications") ? './Aplications' : 'Aplications' ;?>" title="Features">
 															Applications
 														</a>
-														<div class="dropdown-menu" style="width:200px">
-															<ul class="level-2">
-																<li class="item-2  parent"><a href="107-oral-care.html" title="Oral Care">Oral Care</a>
-																	<div class="dropdown-menu">
-																		<ul>
-																			<li class=""><a href="111-mint-tea.html" title="Mint Tea">Mint Tea</a></li>
-																			<li class=""><a href="112-lemon-tea.html" title="Lemon Tea">Lemon Tea</a></li>
-																			<li class=""><a href="113-ginger-tea.html" title="Ginger Tea">Ginger Tea</a></li>
-																			<li class=""><a href="114-herbal-tea.html" title="Herbal tea">Herbal tea</a></li>
-																			<li class=""><a href="115-accessories.html" title="Accessories">Accessories</a></li>
-																		</ul>
-																	</div><span class="grower close"> </span>
-																</li>
-																<li class="item-2  group"><a href="103-treatments.html" title="Treatments">Treatments</a></li>
-																<li class="item-2  group"><a href="102-devices.html" title="Devices">Devices</a></li>
-																<li class="item-2 "><a href="16-fitness.html" title="Fitness">Fitness</a></li>
-															</ul>
-														</div><span class="grower close"> </span>
 													</li>
-													<!-- <li class="item-1 specials"><a href="prices-drop.html" title="Specials">
-															<p class="label_sale">SALE</p> 
-															Specials
-														</a></li> -->
 													<li class="item-1 contactus"><a href="<?= ("ContactUs") ? './ContactUs' : 'Inicio' ;?>" title="Contact Us"> Contact Us</a></li>
 													<li class="item-1 aboutus"><a href="<?= ("AboutUs") ? './AboutUs' : 'AboutUs' ;?>" title="About Us"> About Us</a></li>
-													<li class="item-1 smartblog"><a href="smartblog.html" title="Blog"> Suport</a></li>
+													<li class="item-1 smartblog"><a href="<?= ("Support") ? './Support' : 'Support' ;?>" title="Blog"> Suport</a></li>
 
 												</ul>
 											</div>
@@ -304,11 +181,12 @@
 						<div class="row">
 							<div class="mobile-top-content col-xs-12">
 								<div class="mobile-menu">
-									<i class="icon-menu"></i>
+									<!-- <i class="icon-menu"></i> -->
+									<i class="fa fa-bars" aria-hidden="true"></i>
 								</div>
 								<div class="mobile-logo">
 
-									<a href="http://ps.ariestheme.com/themes/sp_medisine/">
+									<a href="http://ps.magentech.com/themes/sp_medisine/">
 										<img src="../modules/spthemeconfigurator/patterns/logo-mobile-1.png" alt="SP Medisine">
 									</a>
 								</div>
@@ -360,5 +238,3 @@
 
 			</div>
 		</aside>
-
-		

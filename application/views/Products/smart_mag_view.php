@@ -8,28 +8,28 @@
                             <ol itemscope itemtype="http://schema.org/BreadcrumbList" style="margin: 0;">
 
 
-                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                    <a itemprop="item" href="../index.html">
-                                        <span itemprop="name">Home</span>
-                                    </a>
-                                    <meta itemprop="position" content="1">
-                                </li>
+                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="<?= ("Inicio") ? './Inicio' : 'Inicio' ;?>">
+                                <span itemprop="name">Home</span>
+                            </a>
+                            <meta itemprop="position" content="1">
+                        </li>
 
 
-                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                    <a itemprop="item" href="../13-coronavirus-prevention.html">
-                                        <span itemprop="name">Coronavirus Prevention</span>
-                                    </a>
-                                    <meta itemprop="position" content="2">
-                                </li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="<?= ("Inicio") ? './Inicio' : 'Inicio' ;?>">
+                                <span itemprop="name">Products</span>
+                            </a>
+                            <meta itemprop="position" content="2">
+                        </li>
 
 
-                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                    <a itemprop="item" href="50-maximus-nibh-hendrerit.html">
-                                        <span itemprop="name">Maximus nibh hendrerit lorem</span>
-                                    </a>
-                                    <meta itemprop="position" content="3">
-                                </li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="#">
+                                <span itemprop="name">Smart-Mag</span>
+                            </a>
+                            <meta itemprop="position" content="3">
+                        </li>
 
 
                             </ol>
@@ -72,6 +72,9 @@
 
                                             <div class="js-qv-mask mask">
                                                 <ul class="product-images js-qv-product-images">
+                                                    <li class="thumb-container">
+                                                        <img class="thumb js-thumb " data-image-medium-src="<?= base_url('resources/landingpage/img/products/smart_mag/medium/22b01a_7976ef3ea8994acf91249068798eab2c_mv2_d_2000_2000_s_2.png'); ?>" data-image-large-src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_7976ef3ea8994acf91249068798eab2c_mv2_d_2000_2000_s_2.webp'); ?>" src="<?= base_url('resources/landingpage/img/products/smart_mag/small/22b01a_7976ef3ea8994acf91249068798eab2c_mv2_d_2000_2000_s_2.png'); ?>" alt="" title="" width="110" itemprop="image">
+                                                    </li>
                                                     <li class="thumb-container">
                                                         <img class="thumb js-thumb " data-image-medium-src="<?= base_url('resources/landingpage/img/products/smart_mag/medium/22b01a_cc9ad8548a6b4697aa2a6cb651538ea7_mv2_d_2000_2000_s_2.png'); ?>" data-image-large-src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_cc9ad8548a6b4697aa2a6cb651538ea7_mv2_d_2000_2000_s_2.webp'); ?>" src="<?= base_url('resources/landingpage/img/products/smart_mag/small/22b01a_cc9ad8548a6b4697aa2a6cb651538ea7_mv2_d_2000_2000_s_2.png'); ?>" alt="" title="" width="110" itemprop="image">
                                                     </li>
@@ -116,10 +119,9 @@
                                                 </div>
                                             </div>
 
-                                            <div class="comments_advices">
-                                                <!-- <a class="nb-comments" href="#idTab5">1 Reviews</a> -->
+                                            <!-- <div class="comments_advices">
                                                 <a class="open-comment-form" href="#" data-toggle="modal" data-target="#productcomment-modal"> send an email</a>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <!--  /Module SPProductComments extra-->
 
@@ -134,25 +136,25 @@
                                         <div>
                                             <ul class="criterions_list">
                                                 <li>
-                                                - Instalación Fácil y Rápida
+                                                    - Instalación Fácil y Rápida
                                                 </li>
                                                 <li>
-                                                - Instalación Fácil y Rápida
+                                                    - Instalación Fácil y Rápida
                                                 </li>
                                                 <li>
-                                                - Alto Rendimiento
+                                                    - Alto Rendimiento
                                                 </li>
                                                 <li>
-                                                - Tecnología de Flujo-Inteligente de Compu-Flow™
+                                                    - Tecnología de Flujo-Inteligente de Compu-Flow™
                                                 </li>
                                                 <li>
-                                                - Indicadores de Leds inteligentes de Compu-Flow™
+                                                    - Indicadores de Leds inteligentes de Compu-Flow™
                                                 </li>
                                                 <li>
-                                                - Una solución limpia para medir el flujo multi-industrial
+                                                    - Una solución limpia para medir el flujo multi-industrial
                                                 </li>
                                                 <li>
-                                                - Rápido tiempo de respuesta
+                                                    - Rápido tiempo de respuesta
                                                 </li>
                                             </ul>
                                         </div>
@@ -186,12 +188,12 @@
 
                                         <div class="product-actions">
 
-                                            <form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" id="add-to-cart-or-refresh">
+                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" id="add-to-cart-or-refresh">
                                                 <!-- <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
                                                 <input type="hidden" name="id_product" value="50" id="product_page_product_id">
                                                 <input type="hidden" name="id_customization" value="0" id="product_customization_id">
  -->
-<!-- 
+                                                <!-- 
                                                 <div class="product-variants">
                                                 </div> -->
 
@@ -199,7 +201,7 @@
 
 
 
-<!-- 
+                                                <!-- 
                                                 <section class="product-discounts">
                                                 </section>
  -->
@@ -214,10 +216,10 @@
                                                             <input type="text" name="qty" id="quantity_wanted" value="1" class="input-group" min="1" aria-label="Quantity">
                                                         </div> -->
 
-                                                        <div class="add">
-                                                            <button class="btn btn-primary add-to-cart" data-button-action="add-to-cart" type="submit">
-                                                                <span class="atc_text">Download brochure</span>
-                                                            </button>
+                                                        <div class="s">
+                                                            <a class="btn btn-primary "  href="<?= base_url('resources/landingpage/docs/MagQS GuideCEM2020.pdf'); ?>" type="button" download>
+                                                                <span class="">Download brochure</span>
+                                                            </a>
                                                         </div>
                                                     </div>
 
@@ -234,9 +236,9 @@
                                                     <div class="social-sharing">
                                                         <span>Share</span>
                                                         <ul>
-                                                            <li class="icon-facebook icon-gray"><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fps.ariestheme.com%2Fthemes%2Fsp_medisine%2Fen%2Fcoronavirus-prevention%2F50-maximus-nibh-hendrerit.html" class="text-hide" title="Share" target="_blank">Share</a></li>
-                                                            <li class="icon-twitter icon-gray"><a href="https://twitter.com/intent/tweet?text=Maximus+nibh+hendrerit+lorem%20http%3A%2F%2Fps.ariestheme.com%2Fthemes%2Fsp_medisine%2Fen%2Fcoronavirus-prevention%2F50-maximus-nibh-hendrerit.html" class="text-hide" title="Tweet" target="_blank">Tweet</a></li>
-                                                            <li class="icon-pinterest icon-gray"><a href="https://www.pinterest.com/pin/create/button/?media=http%3A%2F%2Fps.ariestheme.com%2Fthemes%2Fsp_medisine%2F1341%2Fmaximus-nibh-hendrerit.jpg&amp;url=http%3A%2F%2Fps.ariestheme.com%2Fthemes%2Fsp_medisine%2Fen%2Fcoronavirus-prevention%2F50-maximus-nibh-hendrerit.html" class="text-hide" title="Pinterest" target="_blank">Pinterest</a></li>
+                                                            <li class="icon-facebook icon-gray"><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fps.magentech.com%2Fthemes%2Fsp_medisine%2Fen%2Fcoronavirus-prevention%2F50-maximus-nibh-hendrerit.html" class="text-hide" title="Share" target="_blank">Share</a></li>
+                                                            <li class="icon-twitter icon-gray"><a href="https://twitter.com/intent/tweet?text=Maximus+nibh+hendrerit+lorem%20http%3A%2F%2Fps.magentech.com%2Fthemes%2Fsp_medisine%2Fen%2Fcoronavirus-prevention%2F50-maximus-nibh-hendrerit.html" class="text-hide" title="Tweet" target="_blank">Tweet</a></li>
+                                                            <li class="icon-pinterest icon-gray"><a href="https://www.pinterest.com/pin/create/button/?media=http%3A%2F%2Fps.magentech.com%2Fthemes%2Fsp_medisine%2F1341%2Fmaximus-nibh-hendrerit.jpg&amp;url=http%3A%2F%2Fps.magentech.com%2Fthemes%2Fsp_medisine%2Fen%2Fcoronavirus-prevention%2F50-maximus-nibh-hendrerit.html" class="text-hide" title="Pinterest" target="_blank">Pinterest</a></li>
                                                         </ul>
                                                     </div>
 
@@ -265,7 +267,7 @@
                                             <a class="nav-link" data-toggle="tab" href="#product-details" role="tab" aria-controls="product-details">Product Details</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#review" role="tab" aria-controls="product-details">Reviews</a>
+                                            <a class="nav-link" data-toggle="tab" href="#review" role="tab" aria-controls="product-details">Specifications</a>
                                         </li>
                                     </ul>
 
@@ -273,20 +275,84 @@
                                         <div class="tab-pane fade in active" id="description" role="tabpanel">
 
                                             <div class="product-description">
-                                                <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">Aenean nibh sem, luctus sed commodo vel, blandit eget est. Suspendisse ultricies eleifend hendrerit. Pellentesque sapien nisl, varius eu arcu ac, fermentum interdum est. Proin ut mi ex. In ornare mi massa. Donec a diam mi. Pellentesque interdum elit egestas tellus congue, ut ullamcorper dui lacinia. Aliquam nulla magna, semper eu iaculis eget, malesuada non nibh. Nam ut erat ac orci ornare porttitor accumsan eu metus. Fusce nibh massa, aliquam sit amet nibh at, pulvinar pulvinar arcu.</span></p>
+                                                <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">When you need a reliable flow meter the Compu-Flow™ is the right choice. We have been
+                                                        manufacturing for the flow meter markets for the last 30 years.</span></p>
+                                                <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">Mag meters are the popular choice for closed pipe applications. The CEM100 model is the
+                                                        most advanced design in the industry for Low Profile Single Point Insertion mag meters.</span></p>
+                                                <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">This style of flow meter is the practical choice for virtually all full pipe applications. The
+                                                        CEM100 offers features often not found in even the most expensive spool piece models.
+                                                        Rapid response time, simple installation and removal, rugged design, and unmatched
+                                                        accuracy are just some of the advantages the CEM100 MAG offers. Combine this with our
+                                                        user friendly display and competitive pricing and you have a winning combination.</span></p>
+                                                <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;"></span></p>
+                                                <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;"></span></p>
                                             </div>
 
                                         </div>
 
 
-                                        <div class="tab-pane clearfix fade" id="product-details" data-product="{&quot;id_shop_default&quot;:&quot;1&quot;,&quot;id_manufacturer&quot;:&quot;3&quot;,&quot;id_supplier&quot;:&quot;0&quot;,&quot;reference&quot;:&quot;sp-demo-31&quot;,&quot;is_virtual&quot;:&quot;0&quot;,&quot;delivery_in_stock&quot;:null,&quot;delivery_out_stock&quot;:null,&quot;id_category_default&quot;:&quot;13&quot;,&quot;on_sale&quot;:&quot;0&quot;,&quot;online_only&quot;:&quot;0&quot;,&quot;ecotax&quot;:0,&quot;minimal_quantity&quot;:&quot;1&quot;,&quot;low_stock_threshold&quot;:null,&quot;low_stock_alert&quot;:&quot;0&quot;,&quot;price&quot;:&quot;$695.39&quot;,&quot;unity&quot;:null,&quot;unit_price_ratio&quot;:&quot;0.000000&quot;,&quot;additional_shipping_cost&quot;:&quot;0.000000&quot;,&quot;customizable&quot;:&quot;0&quot;,&quot;text_fields&quot;:&quot;0&quot;,&quot;uploadable_files&quot;:&quot;0&quot;,&quot;redirect_type&quot;:&quot;301-category&quot;,&quot;id_type_redirected&quot;:&quot;0&quot;,&quot;available_for_order&quot;:&quot;1&quot;,&quot;available_date&quot;:&quot;0000-00-00&quot;,&quot;show_condition&quot;:&quot;0&quot;,&quot;condition&quot;:&quot;new&quot;,&quot;show_price&quot;:&quot;1&quot;,&quot;indexed&quot;:&quot;1&quot;,&quot;visibility&quot;:&quot;both&quot;,&quot;cache_default_attribute&quot;:&quot;0&quot;,&quot;advanced_stock_management&quot;:&quot;0&quot;,&quot;date_add&quot;:&quot;2019-06-07 07:05:20&quot;,&quot;date_upd&quot;:&quot;2020-10-01 04:17:56&quot;,&quot;pack_stock_type&quot;:&quot;3&quot;,&quot;meta_description&quot;:null,&quot;meta_keywords&quot;:null,&quot;meta_title&quot;:null,&quot;link_rewrite&quot;:&quot;maximus-nibh-hendrerit&quot;,&quot;name&quot;:&quot;Maximus nibh hendrerit lorem&quot;,&quot;description&quot;:&quot;&lt;p&gt;&lt;span style=\&quot;font-family:&#039;Open Sans&#039;, Arial, sans-serif;font-size:14px;text-align:justify;\&quot;&gt;Aenean nibh sem, luctus sed commodo vel, blandit eget est. Suspendisse ultricies eleifend hendrerit. Pellentesque sapien nisl, varius eu arcu ac, fermentum interdum est. Proin ut mi ex. In ornare mi massa. Donec a diam mi. Pellentesque interdum elit egestas tellus congue, ut ullamcorper dui lacinia. Aliquam nulla magna, semper eu iaculis eget, malesuada non nibh. Nam ut erat ac orci ornare porttitor accumsan eu metus. Fusce nibh massa, aliquam sit amet nibh at, pulvinar pulvinar arcu.&lt;\/span&gt;&lt;\/p&gt;&quot;,&quot;description_short&quot;:&quot;&lt;p&gt;&lt;span style=\&quot;font-family:&#039;Open Sans&#039;, Arial, sans-serif;font-size:14px;text-align:justify;\&quot;&gt;Aenean nibh sem, luctus sed commodo vel, blandit eget est. Suspendisse ultricies eleifend hendrerit. Pellentesque sapien nisl, varius eu arcu ac, fermentum interdum est. Proin ut mi ex. In ornare mi massa&lt;\/span&gt;&lt;\/p&gt;&quot;,&quot;available_now&quot;:&quot;In stock&quot;,&quot;available_later&quot;:&quot;Out of stock&quot;,&quot;id&quot;:50,&quot;id_product&quot;:50,&quot;out_of_stock&quot;:2,&quot;new&quot;:0,&quot;id_product_attribute&quot;:&quot;0&quot;,&quot;quantity_wanted&quot;:1,&quot;extraContent&quot;:[],&quot;allow_oosp&quot;:0,&quot;category&quot;:&quot;coronavirus-prevention&quot;,&quot;category_name&quot;:&quot;Coronavirus Prevention&quot;,&quot;link&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/coronavirus-prevention\/50-maximus-nibh-hendrerit.html&quot;,&quot;attribute_price&quot;:0,&quot;price_tax_exc&quot;:695.39,&quot;price_without_reduction&quot;:695.39,&quot;reduction&quot;:0,&quot;specific_prices&quot;:[],&quot;quantity&quot;:971,&quot;quantity_all_versions&quot;:971,&quot;id_image&quot;:&quot;en-default&quot;,&quot;features&quot;:[],&quot;attachments&quot;:[],&quot;virtual&quot;:0,&quot;pack&quot;:0,&quot;packItems&quot;:[],&quot;nopackprice&quot;:0,&quot;customization_required&quot;:false,&quot;rate&quot;:0,&quot;tax_name&quot;:&quot;&quot;,&quot;ecotax_rate&quot;:0,&quot;unit_price&quot;:&quot;&quot;,&quot;customizations&quot;:{&quot;fields&quot;:[]},&quot;id_customization&quot;:0,&quot;is_customizable&quot;:false,&quot;show_quantities&quot;:true,&quot;quantity_label&quot;:&quot;Items&quot;,&quot;quantity_discounts&quot;:[],&quot;customer_group_discount&quot;:0,&quot;images&quot;:[{&quot;bySize&quot;:{&quot;cart_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;small_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-small_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:170,&quot;height&quot;:170},&quot;home_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;medium_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-medium_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:370,&quot;height&quot;:370},&quot;large_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800}},&quot;small&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;medium&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;large&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800},&quot;legend&quot;:null,&quot;id_image&quot;:&quot;1341&quot;,&quot;cover&quot;:&quot;1&quot;,&quot;position&quot;:&quot;1&quot;,&quot;associatedVariants&quot;:[]},{&quot;bySize&quot;:{&quot;cart_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1342-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;small_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1342-small_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:170,&quot;height&quot;:170},&quot;home_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1342-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;medium_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1342-medium_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:370,&quot;height&quot;:370},&quot;large_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1342-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800}},&quot;small&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1342-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;medium&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1342-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;large&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1342-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800},&quot;legend&quot;:null,&quot;id_image&quot;:&quot;1342&quot;,&quot;cover&quot;:null,&quot;position&quot;:&quot;2&quot;,&quot;associatedVariants&quot;:[]},{&quot;bySize&quot;:{&quot;cart_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1346-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;small_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1346-small_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:170,&quot;height&quot;:170},&quot;home_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1346-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;medium_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1346-medium_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:370,&quot;height&quot;:370},&quot;large_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1346-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800}},&quot;small&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1346-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;medium&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1346-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;large&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1346-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800},&quot;legend&quot;:null,&quot;id_image&quot;:&quot;1346&quot;,&quot;cover&quot;:null,&quot;position&quot;:&quot;3&quot;,&quot;associatedVariants&quot;:[]},{&quot;bySize&quot;:{&quot;cart_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1347-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;small_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1347-small_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:170,&quot;height&quot;:170},&quot;home_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1347-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;medium_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1347-medium_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:370,&quot;height&quot;:370},&quot;large_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1347-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800}},&quot;small&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1347-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;medium&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1347-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;large&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1347-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800},&quot;legend&quot;:null,&quot;id_image&quot;:&quot;1347&quot;,&quot;cover&quot;:null,&quot;position&quot;:&quot;4&quot;,&quot;associatedVariants&quot;:[]}],&quot;cover&quot;:{&quot;bySize&quot;:{&quot;cart_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;small_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-small_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:170,&quot;height&quot;:170},&quot;home_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;medium_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-medium_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:370,&quot;height&quot;:370},&quot;large_default&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800}},&quot;small&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-cart_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:100,&quot;height&quot;:100},&quot;medium&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-home_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:300,&quot;height&quot;:300},&quot;large&quot;:{&quot;url&quot;:&quot;http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/1341-large_default\/maximus-nibh-hendrerit.jpg&quot;,&quot;width&quot;:800,&quot;height&quot;:800},&quot;legend&quot;:null,&quot;id_image&quot;:&quot;1341&quot;,&quot;cover&quot;:&quot;1&quot;,&quot;position&quot;:&quot;1&quot;,&quot;associatedVariants&quot;:[]},&quot;has_discount&quot;:false,&quot;discount_type&quot;:null,&quot;discount_percentage&quot;:null,&quot;discount_percentage_absolute&quot;:null,&quot;discount_amount&quot;:null,&quot;discount_amount_to_display&quot;:null,&quot;price_amount&quot;:695.39,&quot;unit_price_full&quot;:&quot;&quot;,&quot;show_availability&quot;:true,&quot;availability_date&quot;:null,&quot;availability_message&quot;:&quot;In stock&quot;,&quot;availability&quot;:&quot;available&quot;}" role="tabpanel">
+                                        <div class="tab-pane clearfix fade" id="product-details"  role="tabpanel">
+                                            <div class="row">
+                                                <div class="col col-lg-6">
+                                                    <div class="product-manufacturer">
+                                                        <a href="../brand/3-brand-1.html">
+                                                            <img src="<?= base_url('resources/landingpage/img/products/smart_mag/medium/22b01a_7976ef3ea8994acf91249068798eab2c_mv2_d_2000_2000_s_2.png'); ?>" width="" class="img img-thumbnail manufacturer-logo" alt="Brand 1">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-lg-6">
+                                                    <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">The basic kit of the C6 Compu-Flow™
+                                                            Electromagnetic flow meter consists of a low
+                                                            profile insertion sensor and a display control
+                                                            panel..</span></p>
+                                                    <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">A modular system of electronics can be attached
+                                                            directly to the flow sensor or remotely mounted.
+                                                            The meter provides full indication of rate and
+                                                            total, plus 4-20 mA, HiLo Alarms, RS232, and
+                                                            Batch Control.</span></p>
+                                                    <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">The adapter of the CEM100 models, mates with
+                                                            a standard female NPT fitting, and can be
+                                                            directly threaded into ordinary saddles or
+                                                            threaded weld fittings. The standard sensor
+                                                            probe length is 12”, optional custom probes:
+                                                            6”,12”,18”,24” & 36” Lengths.</span></p>
+                                                    <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">
+                                                            Models of 12” to 36” offer an isolation valve, allowing hot-tap installation, or
+                                                            installation and removal under pressure.</span></p>
+                                                    <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;"></span></p>
 
-                                            <div class="product-manufacturer">
-                                                <a href="../brand/3-brand-1.html">
-                                                    <img src="../../img/m/3.jpg" class="img img-thumbnail manufacturer-logo" alt="Brand 1">
-                                                </a>
+                                                </div>
                                             </div>
-                                            <div class="product-reference">
+                                            <br>
+                                            <br>
+                                            <div class="row">
+                                                <div class="col col-lg-6">
+                                                    <div class="product-manufacturer">
+                                                        <a href="../brand/3-brand-1.html">
+                                                            <img src="<?= base_url('resources/landingpage/img/products/smart_mag/medium/22b01a_dd8efae6a7a9429ba34c9e405f42b2a5_mv2_d_2000_2000_s_2.png'); ?>" class="img img-thumbnail manufacturer-logo" alt="Brand 1">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-lg-6">
+                                                    <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">Now!!
+                                                            Introducing the All
+                                                            New Compu-Flow™
+                                                            Smart-Mag Magnetic
+                                                            Insertion Flowmeter.</span></p>
+                                                    <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">New features include:
+                                                            Smart-LED Visual Flow
+                                                            Indicators.
+                                                            Your Flow at a glance!
+                                                            Utilizes Smart-Flow
+                                                            Technology exclusively by
+                                                            Compu-Flow™.</span></p>
+
+
+                                                </div>
+                                            </div>
+
+
+                                            <!-- <div class="product-reference">
                                                 <label class="label">Reference </label>
                                                 <span itemprop="sku">sp-demo-31</span>
                                             </div>
@@ -296,7 +362,7 @@
                                             <div class="product-quantities">
                                                 <label class="label">In stock</label>
                                                 <span data-stock="971" data-allow-oosp="0">971 Items</span>
-                                            </div>
+                                            </div> -->
 
 
 
@@ -321,7 +387,202 @@
 
                                         <div class="tab-pane fade in" id="review">
 
-                                            <script type="text/javascript">
+
+                                            <div class="row">
+                                                <div class="col col-lg-4">
+                                                    <h5>Display:</h5>
+                                                    <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">
+                                                            NEMA – 4X hinged IP65
+                                                            <br>
+                                                            Temp: (+4°F to +140°F).
+                                                        </span></p>
+
+                                                    <h5>Dim revisar:</h5>
+                                                    <p>
+                                                        <span>
+                                                            7 x 5 x 3 inches
+                                                        </span>
+                                                    </p>
+                                                    <h5>Totalizer:</h5>
+                                                    <p>
+                                                        <span>
+                                                            12 Digit LCD
+                                                            <br>
+                                                            Memory Backup 99 yrs +
+                                                        </span>
+                                                    </p>
+                                                    <h5>Rate Meter:</h5>
+                                                    <p>
+                                                        <span>
+                                                            4 Digit LCD Digital Bar Graph
+                                                        </span>
+                                                    </p>
+                                                    <h5>Memory:</h5>
+                                                    <p>
+                                                        <span>
+                                                            Nonvolatile 99 yrs +
+                                                            <br>
+                                                            All parameter inputs
+                                                        </span>
+                                                    </p>
+                                                    <h5>Power:</h5>
+                                                    <p>
+                                                        <span>
+                                                            Isolated-Regulated-Module
+                                                            <br>
+                                                            100-240 VAC / 12VDC @ 1.0A
+                                                        </span>
+                                                    </p>
+                                                    <h5>LED Indicators: (Receiver)</h5>
+                                                    <p>
+                                                        <span>
+                                                            Green – Power, Yellow – Echo,
+                                                            <br>
+                                                            Red – Hi/Low Alarm
+                                                        </span>
+                                                    </p>
+                                                    <h5>Outputs:</h5>
+                                                    <p>
+                                                        <span>
+                                                            Digital Pulse Train (0-12V)
+                                                            <br>
+                                                            4-20mA (MAX z1200 ohm)
+                                                            <br>
+                                                            RS232 via DB9 Port
+                                                            <br>
+                                                            Hi-Low Limit Alarms * Batch Control *
+                                                            <br>
+                                                            * (12VDC @50mA)
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="col col-lg-4">
+                                                    <h5>Transducer:</h5>
+                                                    <p><span>
+                                                            <b>Stainless-steel 1” probe</b>
+                                                            <br>
+                                                            Power: 12/24VDC @ 120mA
+                                                            <br>
+                                                            Submersible 200’ Max IP68
+                                                            <br>
+                                                            Potted IP68 Non- Metallic
+                                                            <br>
+                                                            Temp (+4°F to +220°F)
+                                                            <br>
+                                                            Digital Pulse Train (0-12V)
+                                                            <br>
+                                                            Analog Signal 12VDC
+                                                            <br>
+                                                            K Factor - 100Hz/FPS
+                                                        </span></p>
+
+                                                    <h5>Smart-LED Indicators:
+                                                        (Transducer)</h5>
+                                                    <p><span>
+                                                            <b>Green:</b> PWR: Full Pipe, No Flow
+                                                            <br>
+                                                            <b>Green: Flash:</b> Forward Flow Present
+                                                            <br>
+                                                            <b>Yellow: </b>Reverse Flow Present
+                                                            <br>
+                                                            <b>Red:</b> Low or no water present
+                                                        </span></p>
+
+
+                                                    <h5>Cable Length:</h5>
+                                                    <p>
+                                                        <span>
+                                                            25 ft. standard
+                                                            <br>
+                                                            0 to 2000 ft. (optional)
+                                                        </span>
+                                                    </p>
+
+
+                                                    <h5>Flow Range:</h5>
+                                                    <p>
+                                                        <span>
+                                                            FPS: 0-30 fps/ 10 mps
+                                                            <br>
+                                                            Resolution .1 fps, 0.03 mps
+                                                        </span>
+                                                    </p>
+
+                                                    <h5>Pipe ID Range:</h5>
+                                                    <p>
+                                                        <span>
+                                                            0 – 99.99 inches
+                                                            <br>
+                                                            0 – 2540 mm
+                                                        </span>
+                                                    </p>
+
+                                                    <h5>Accuracy:</h5>
+                                                    <p>
+                                                        <span>
+                                                            +/- 1% (function of flow profile)
+                                                            <br>
+                                                            +/- 0.5% with proper piperun
+                                                        </span>
+                                                    </p>
+
+                                                    <h5>Linearity:</h5>
+                                                    <p>
+                                                        <span>
+                                                            +/- 0.5%
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="col col-lg-4">
+                                                    <h5>Repeatability:</h5>
+                                                    <p>
+                                                        <span>
+                                                            +/- 0.1%
+                                                        </span>
+                                                    </p>
+
+                                                    <h5>Options:</h5>
+                                                    <p>
+                                                        <span>
+                                                            Wireless Signal 900 mHz
+                                                            <br>
+                                                            Data Logger 1- 32 GB
+                                                            <br>
+                                                            Flash Drive Internal or Remote
+                                                            <br>
+                                                            Probe lengths: 6”,12”, 18”, 24”, 36”
+                                                            <br>
+                                                            Custom probe lengths available
+                                                        </span>
+                                                    </p>
+                                                    <h5>Weight:</h5>
+                                                    <p><span>
+                                                            4 lbs. - Fixed System
+                                                            <br>
+                                                            8 lbs. - Portable System
+                                                        </span></p>
+                                                    <h5>Engineering Units:</h5>
+                                                    <p><span>
+                                                            English & Metricm
+                                                        </span></p>
+                                                    <h5>Languages:</h5>
+                                                    <p><span>
+                                                            English
+                                                        </span></p>
+                                                    <h5>Part Number:</h5>
+                                                    <p><span>
+                                                            CEM-100S
+                                                        </span></p>
+                                                    <h5>Warranty:</h5>
+                                                    <p><span>
+                                                            2-Year Limited Warranty
+                                                        </span></p>
+
+
+
+                                                </div>
+                                            </div>
+                                            <!-- <script type="text/javascript">
                                                 var spproductcomments_controller_url = "../module/spproductcomments/default.html";
                                                 var confirm_report_message = "Are you sure that you want to report this comment?";
                                                 var secure_key = "88048a88a6cf9d3d6f10150edc8f1aab";
@@ -331,9 +592,9 @@
                                                 var productcomment_title = "New comment";
                                                 var productcomment_ok = "OK";
                                                 var moderation_active = 1;
-                                            </script>
+                                            </script> -->
 
-                                            <div id="productcomment-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="SpSPProductComment" aria-hidden="true">
+                                            <!-- <div id="productcomment-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="SpSPProductComment" aria-hidden="true">
                                                 <div class="modal-dialog" role="document">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
@@ -389,7 +650,7 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                </form><!-- /end comment-form-wrap_content -->
+                                                                </form>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -422,9 +683,6 @@
                                             <div id="idTab5">
                                                 <div id="spspproduct_comments_block_tab">
                                                     <div class="comment clearfix">
-                                                        <!--<span class="circle">
-					<img class="iavatar" title="avatar" alt="avatar" src="http://ps.ariestheme.com/themes/sp_medisine//modules/spproductcomments/img/user.png" />
-				</span>-->
                                                         <div class="star_content clearfix">
                                                             <span class="author">Lorem ipsum</span>
 
@@ -449,7 +707,7 @@
                                                     </p>
 
                                                 </div>
-                                            </div>
+                                            </div> -->
 
                                         </div>
 
@@ -473,9 +731,9 @@
                                                     <img class="js-modal-product-cover product-cover-modal" width="800" src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_7976ef3ea8994acf91249068798eab2c_mv2_d_2000_2000_s_2.webp'); ?>" alt="" title="" itemprop="image">
                                                     <figcaption class="image-caption">
 
-                                                        <div id="product-description-short" itemprop="description">
+                                                        <!-- <div id="product-description-short" itemprop="description">
                                                             <p><span style="font-family:'Open Sans', Arial, sans-serif;font-size:14px;text-align:justify;">Aenean nibh sem, luctus sed commodo vel, blandit eget est. Suspendisse ultricies eleifend hendrerit. Pellentesque sapien nisl, varius eu arcu ac, fermentum interdum est. Proin ut mi ex. In ornare mi massa</span></p>
-                                                        </div>
+                                                        </div> -->
 
                                                     </figcaption>
                                                 </figure>
@@ -483,6 +741,9 @@
 
                                                     <div class="js-modal-mask mask  nomargin ">
                                                         <ul class="product-images js-modal-product-images">
+                                                        <li class="thumb-container">
+                                                                <img data-image-large-src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_7976ef3ea8994acf91249068798eab2c_mv2_d_2000_2000_s_2.webp'); ?>" class="thumb js-modal-thumb" src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_7976ef3ea8994acf91249068798eab2c_mv2_d_2000_2000_s_2.webp'); ?>" alt="" title="" width="300" itemprop="image">
+                                                            </li>
                                                             <li class="thumb-container">
                                                                 <img data-image-large-src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_cc9ad8548a6b4697aa2a6cb651538ea7_mv2_d_2000_2000_s_2.webp'); ?>" class="thumb js-modal-thumb" src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_cc9ad8548a6b4697aa2a6cb651538ea7_mv2_d_2000_2000_s_2.webp'); ?>" alt="" title="" width="300" itemprop="image">
                                                             </li>
@@ -493,7 +754,7 @@
                                                                 <img data-image-large-src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_96b1a2d433034be8b5f5ddb99563de18_mv2.webp'); ?>" class="thumb js-modal-thumb" src="<?= base_url('resources/landingpage/img/products/smart_mag/large/22b01a_96b1a2d433034be8b5f5ddb99563de18_mv2.webp'); ?>" alt="" title="" width="300" itemprop="image">
                                                             </li>
                                                             <!-- <li class="thumb-container">
-                                                                <img data-image-large-src="http://ps.ariestheme.com/themes/sp_medisine/1347-large_default/maximus-nibh-hendrerit.jpg" class="thumb js-modal-thumb" src="../../1347-home_default/maximus-nibh-hendrerit.jpg" alt="" title="" width="300" itemprop="image">
+                                                                <img data-image-large-src="http://ps.magentech.com/themes/sp_medisine/1347-large_default/maximus-nibh-hendrerit.jpg" class="thumb js-modal-thumb" src="../../1347-home_default/maximus-nibh-hendrerit.jpg" alt="" title="" width="300" itemprop="image">
                                                             </li> -->
                                                         </ul>
                                                     </div>
@@ -547,7 +808,7 @@
 
 
                                                         <div class="sp-cart-box no-variants">
-                                                            <form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
                                                                 <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
                                                                 <input type="hidden" name="id_product" value="45" class="product_page_product_id">
                                                                 <input type="hidden" name="qty" value="1">
@@ -606,7 +867,7 @@
 
 
                                                         <div class="sp-cart-box no-variants">
-                                                            <form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
                                                                 <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
                                                                 <input type="hidden" name="id_product" value="47" class="product_page_product_id">
                                                                 <input type="hidden" name="qty" value="1">
@@ -665,7 +926,7 @@
 
 
                                                         <div class="sp-cart-box no-variants">
-                                                            <form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
                                                                 <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
                                                                 <input type="hidden" name="id_product" value="50" class="product_page_product_id">
                                                                 <input type="hidden" name="qty" value="1">
@@ -724,7 +985,7 @@
 
 
                                                         <div class="sp-cart-box no-variants">
-                                                            <form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
                                                                 <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
                                                                 <input type="hidden" name="id_product" value="46" class="product_page_product_id">
                                                                 <input type="hidden" name="qty" value="1">
@@ -785,7 +1046,7 @@
 
 
                                                         <div class="sp-cart-box no-variants">
-                                                            <form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
                                                                 <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
                                                                 <input type="hidden" name="id_product" value="51" class="product_page_product_id">
                                                                 <input type="hidden" name="qty" value="1">

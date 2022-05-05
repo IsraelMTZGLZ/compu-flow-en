@@ -67,6 +67,7 @@ $route['Inicio'] = 'Inicio';
 $route['SmartMag'] = 'Products/SmartMag';
 $route['EconoMag'] = 'Products/EconoMag';
 $route['DopplerC6D'] = 'Products/DopplerC6D';
+$route['ComparisonTable'] = 'Products/ComparisonTable';
 
 $route['C6_Portable_Doppler_Ultrason'] = 'Products/C6PortableDopplerUltrason';
 $route['Filosofia'] = 'Informativa/Filosofia';

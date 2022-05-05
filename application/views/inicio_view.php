@@ -1,51 +1,52 @@
 <section id="wrapper" class="clearfix">
-	<nav data-depth="1" class="breadcrumb breadcrumb-nav clearfix">
-		<div class="container">
-			<div class="row">
-				<div class="breadcrumb_nobg col-xs-12">
-					<ol itemscope itemtype="http://schema.org/BreadcrumbList" style="margin: 0;">
-						<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-							<a itemprop="item" href="index.html">
-								<span itemprop="name">Home</span>
-							</a>
-							<meta itemprop="position" content="1">
-						</li>
-					</ol>
-				</div>
-			</div>
-		</div>
-	</nav>
+    <nav data-depth="1" class="breadcrumb breadcrumb-nav clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="breadcrumb_nobg col-xs-12">
+                    <ol itemscope itemtype="http://schema.org/BreadcrumbList" style="margin: 0;">
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="index.html">
+                                <span itemprop="name">Home </span>
+
+                            </a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </nav>
 
 
 
 
-	<div id="content-wrapper" class="content-full-width col-xs-12 clearfix">
-		<section id="main" class="clearfix">
-			<section id="content" class="page-home clearfix">
-				<section id="spcontent" class="page-home content_v1">
-					<div class="sphomeslider1">
-						<div id="sphomepage-slider1" class="sphomepage-slider sp-preload " data-moduleclass_sfx="" data-autoplay="0" data-autoplay_timeout="12000" data-display_title_module="0" data-autoplaySpeed="2000" data-animateOut="fadeOut" data-animateIn="fadeIn" data-autoplayHoverPause="1" data-startPosition="0" data-mouseDrag="1" data-touchDrag="1" data-pullDrag="1" data-dots="0" data-nav="1" data-hook="displayHomeSlider" data-loop="1">
-							<div class="sp-homeslider sphomeslider-inner-1">
-								<div class="item ">
-									<a href="#" title="#">
-										<img class="responsive" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/Medidores (2).png'); ?>" alt="#" />
-									</a>
-								</div>
-								<div class="item ">
-									<a href="#" title="#">
-										<img class="responsive" src="../modules/sphomeslider/images/sample-2.jpg" alt="#" />
-									</a>
-								</div>
-								<div class="item ">
-									<a href="#" title="#">
-										<img class="responsive" src="../modules/sphomeslider/images/sample-3.jpg" alt="#" />
-									</a>
-								</div>
-							</div>
-						</div>
-						<!-- /Module SpHomeSlider -->
-					</div>
-					<div class="container">
+    <div id="content-wrapper" class="content-full-width col-xs-12 clearfix">
+        <section id="main" class="clearfix">
+            <section id="content" class="page-home clearfix">
+                <section id="spcontent" class="page-home content_v1">
+                    <div class="sphomeslider1">
+                        <div id="sphomepage-slider1" class="sphomepage-slider sp-preload " data-moduleclass_sfx="" data-autoplay="0" data-autoplay_timeout="12000" data-display_title_module="0" data-autoplaySpeed="2000" data-animateOut="fadeOut" data-animateIn="fadeIn" data-autoplayHoverPause="1" data-startPosition="0" data-mouseDrag="1" data-touchDrag="1" data-pullDrag="1" data-dots="0" data-nav="1" data-hook="displayHomeSlider" data-loop="1">
+                            <div class="sp-homeslider sphomeslider-inner-1">
+                                <div class="item ">
+                                    <a href="#" title="#">
+                                        <img class="responsive" src="<?= base_url('resources/landingpage/themes/sp_medisine/img/Medidores (2).png'); ?>" alt="#" />
+                                    </a>
+                                </div>
+                                <div class="item ">
+                                    <a href="#" title="#">
+                                        <img class="responsive" src="<?=base_url('resources/landingpage/themes/sp_medisine/img/Medidores (4).png'); ?>" alt="#" />
+                                    </a>
+                                </div>
+                                <!-- <div class="item ">
+                                    <a href="#" title="#">
+                                        <img class="responsive" src="../modules/sphomeslider/images/sample-3.jpg" alt="#" />
+                                    </a>
+                                </div> -->
+                            </div>
+                        </div>
+                        <!-- /Module SpHomeSlider -->
+                    </div>
+                    <!-- <div class="container">
 						<div class="row">
 
 							<div class="spcustomhtml5 col-xs-12 clearfix">
@@ -96,8 +97,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="spcustomhtml_bg">
+					</div> -->
+                    <!--<div class="spcustomhtml_bg">
 						<div class="container">
 							<div class="row">
 								<div class="spcustomhtml6 col-xs-12 clearfix">
@@ -170,8 +171,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="spbanners">
+					</div>-->
+                    <!--<div class="spbanners">
 						<div class="container">
 							<div class="row">
 								<div class="spbanner1 col-md-4 col-xs-12 clearfix">
@@ -207,8 +208,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="spfilter_bg">
+					</div>-->
+                    <!--<div class="spfilter_bg">
 						<div class="container">
 							<div class="row">
 								<div class="spfilterproducts1 col-xs-12 clearfix">
@@ -591,351 +592,48 @@
 								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="sp_filter_3col">
-						<div class="container">
-							<div class="row">
-								<div class="spfilterproducts2 col-md-4 col-xs-12 block clearfix">
-									<div class="spfilter-products product_style2 buttons_style2 show_nav clearfix " id="spfilter_products_2" data-hook="displayFilterproducts2">
-										<div class="spfp-wrap" data-SPFP_DISPLAY_TITLE="1" data-SPFP_CLS_SFX="" data-SPFP_STATUS="1" data-SPFP_HOOK_INTO="displayFilterproducts2" data-SPFP_TYPE_SHOW="2" data-SPFP_ROW="1" data-SPFP_COLUMN1="1" data-SPFP_COLUMN2="1" data-SPFP_COLUMN3="2" data-SPFP_COLUMN4="2" data-SPFP_AUTOPLAY="0" data-SPFP_COUNTDOWN_TIMER="0" data-SPFP_FEATURED_RANDOMIZE="0" data-SPFP_SELECT_SOURCE="other_products" data-SPFP_DATE_TO="2023-01-20 00:00:00" data-SPFP_CATIDS="2" data-SPFP_ORDERBY="rand" data-SPFP_DIRECTION="DESC" data-SPFP_LIMIT="3" data-SPFP_IDMODULE="2">
-											<div class="title_tabs">
-												<div class="title-module module-title" title="New Arrivals">
-													New Arrivals
-												</div>
-											</div>
-
-											<div class="products_banner hook_displayFilterproducts2">
-												<div class="products spfp-products t_3_1  ">
-
-
-													<article class="product-miniature js-product-miniature" data-id-product="45" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
-														<div class="thumbnail-container clearfix">
-															<div class="product-image">
-
-																<a href="coronavirus-prevention/45-suspendisse-id-felis-libero.html" class="thumbnail product-thumbnail">
-																	<img src="<?= base_url('resources/landingpage/img/about/open-book1.png'); ?>" width="200" height="200" alt="Suspendisse id felis libero" width="200" height="200" data-full-size-image-url="../1324-large_default/suspendisse-id-felis-libero.jpg">
-																</a>
-
-
-																<!-- <ul class="sp-product-flags">
-																		</ul>
-																		<ul class="sp-product-flags flags-right">
-																		</ul> -->
-
-															</div>
-															<div class="product-info-buttons clearfix">
-																<div class="product-info clearfix">
-																<p>LECTURAS DE FLUJO PRECISAS AL INSTANTE.</p>
-																	<p class="h3 product-title">Certificado por el NIST con< 0.5%.</p>
-<!-- 
-																	<a class="cat_default" href="13-coronavirus-prevention.html">.</a>
-
-																	<h1 class="h3 product-title" itemprop="name"><a href="coronavirus-prevention/45-suspendisse-id-felis-libero.html"></a>
-																	</h1> -->
-
-
-
-
-
-																	<!-- <div class="comments_note">
-																				<div class="star_content clearfix">
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1" aria-hidden="true"></i>
-																				</div>
-																				<span class="span-review-main">1 Review(s)</span>
-																			</div>
-
-
-
-
-																			<div class="product-price-and-shipping">
-
-
-
-																				<span class="sr-only">Price</span>
-																				<span itemprop="price" class="price">€568.00</span>
-
-
-
-
-																			</div> -->
-
-																</div>
-
-																<!-- <div class="cart_quickview">
-																			<div class="sp-cart-box no-variants">
-																				<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
-																					<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
-																					<input type="hidden" name="id_product" value="45" class="product_page_product_id">
-																					<input type="hidden" name="qty" value="1">
-																					<button class="btn_style2 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
-																						ADD TO CART
-																					</button>
-																				</form>
-																			</div>
-
-																			<a class="btn_style2 quick-view sp_quickview" href="#" data-link-action="quickview">
-																				<i class="icon-search1"></i>
-																			</a>
-
-																		</div> -->
-															</div>
-														</div>
-													</article>
-
-
-
-
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-								<div class="spfilterproducts3 col-md-4 col-xs-12 block clearfix">
-									<div class="spfilter-products product_style2 buttons_style2 show_nav clearfix " id="spfilter_products_3" data-hook="displayFilterproducts3">
-										<div class="spfp-wrap" data-SPFP_DISPLAY_TITLE="1" data-SPFP_CLS_SFX="" data-SPFP_STATUS="1" data-SPFP_HOOK_INTO="displayFilterproducts3" data-SPFP_TYPE_SHOW="2" data-SPFP_ROW="1" data-SPFP_COLUMN1="1" data-SPFP_COLUMN2="1" data-SPFP_COLUMN3="2" data-SPFP_COLUMN4="2" data-SPFP_AUTOPLAY="0" data-SPFP_COUNTDOWN_TIMER="0" data-SPFP_FEATURED_RANDOMIZE="0" data-SPFP_SELECT_SOURCE="other_products" data-SPFP_DATE_TO="" data-SPFP_CATIDS="2" data-SPFP_ORDERBY="rand" data-SPFP_DIRECTION="DESC" data-SPFP_LIMIT="3" data-SPFP_IDMODULE="3">
-											<div class="title_tabs">
-												<div class="title-module module-title" title="Best sellers">
-													Best sellers
-												</div>
-											</div>
-
-											<div class="products_banner hook_displayFilterproducts3">
-												<div class="products spfp-products t_3_1 owl-carousel ">
-
-
-													<article class="product-miniature js-product-miniature" data-id-product="48" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
-														<div class="thumbnail-container clearfix">
-															<div class="product-image">
-
-																<a href="devices/48-duis-malesuada-urna-euismod.html" class="thumbnail product-thumbnail">
-																	<img src="<?= base_url('resources/landingpage/img/about/layers.png'); ?>" width="370" height="370" alt="Duis malesuada urna euismod" width="370" height="370" data-full-size-image-url="../1332-large_default/duis-malesuada-urna-euismod.jpg">
-																</a>
-
-
-																<ul class="sp-product-flags">
-																</ul>
-																<ul class="sp-product-flags flags-right">
-																</ul>
-
-															</div>
-															<div class="product-info-buttons clearfix">
-																<div class="product-info clearfix">
-
-																	<!-- <a class="cat_default" href="102-devices.html"></a>
-
-																			<h1 class="h3 product-title" itemprop="name"><a href="devices/48-duis-malesuada-urna-euismod.html"></a></h1> -->
-
-																	<p>COMPACTO Y LIGERO.</p>
-																	<p class="h3 product-title">El “Smart-Mag” de Compu-Flow™ , es el primer medidor de su clase que provee un revolucionario diseño compacto y ligero.</p>
-
-
-
-
-
-																	<!-- <div class="comments_note">
-																				<div class="star_content clearfix">
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																				</div>
-																				<span class="span-review-main">1 Review(s)</span>
-																			</div> -->
-
-
-																	<!-- 
-
-																			<div class="product-price-and-shipping">
-
-
-
-																				<span class="sr-only">Price</span>
-																				<span itemprop="price" class="price">€826.00</span>
-
-
-
-
-																			</div> -->
-
-																</div>
-
-																<!-- <div class="cart_quickview">
-																			<div class="sp-cart-box no-variants">
-																				<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
-																					<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
-																					<input type="hidden" name="id_product" value="48" class="product_page_product_id">
-																					<input type="hidden" name="qty" value="1">
-																					<button class="btn_style2 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
-																						ADD TO CART
-																					</button>
-																				</form>
-																			</div>
-
-																			<a class="btn_style2 quick-view sp_quickview" href="#" data-link-action="quickview">
-																				<i class="icon-search1"></i>
-																			</a>
-
-																		</div> -->
-															</div>
-														</div>
-													</article>
-
-
-
-
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-								<div class="spfilterproducts4 col-md-4 col-xs-12 block clearfix">
-									<div class="spfilter-products product_style2 buttons_style2 show_nav clearfix " id="spfilter_products_4" data-hook="displayFilterproducts4">
-										<div class="spfp-wrap" data-SPFP_DISPLAY_TITLE="1" data-SPFP_CLS_SFX="" data-SPFP_STATUS="1" data-SPFP_HOOK_INTO="displayFilterproducts4" data-SPFP_TYPE_SHOW="2" data-SPFP_ROW="1" data-SPFP_COLUMN1="1" data-SPFP_COLUMN2="1" data-SPFP_COLUMN3="2" data-SPFP_COLUMN4="2" data-SPFP_AUTOPLAY="0" data-SPFP_COUNTDOWN_TIMER="0" data-SPFP_FEATURED_RANDOMIZE="1" data-SPFP_SELECT_SOURCE="featured_products" data-SPFP_DATE_TO="2021-06-03 00:00:00" data-SPFP_CATIDS="102" data-SPFP_ORDERBY="rand" data-SPFP_DIRECTION="DESC" data-SPFP_LIMIT="3" data-SPFP_IDMODULE="4">
-											<div class="title_tabs">
-												<div class="title-module module-title" title="Featured">
-													Featured
-												</div>
-											</div>
-
-											<div class="products_banner hook_displayFilterproducts4">
-												<div class="products spfp-products t_3_1 owl-carousel ">
-
-
-													<article class="product-miniature js-product-miniature" data-id-product="48" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
-														<div class="thumbnail-container clearfix">
-															<div class="product-image">
-
-																<a href="devices/48-duis-malesuada-urna-euismod.html" class="thumbnail product-thumbnail">
-																	<img src="<?= base_url('resources/landingpage/img/about/location.png'); ?>" width="370" height="370" alt="Duis malesuada urna euismod" width="370" height="370" data-full-size-image-url="../1332-large_default/duis-malesuada-urna-euismod.jpg">
-																</a>
-
-
-																<ul class="sp-product-flags">
-																</ul>
-																<ul class="sp-product-flags flags-right">
-																</ul>
-
-															</div>
-															<div class="product-info-buttons clearfix">
-																<div class="product-info clearfix">
-																	<p>UNA SOLUCIÓN LIMPIA PARA MEDIR EL FLUJO MULTI-INDUSTRIAL.</p>
-																	<p class="h3 product-title">Ideado para medir, virtualmente cualquier flujo a base de agua en la mayoría de las industrias.</p>
-
-
-
-
-
-
-																	<!-- 
-																			<div class="comments_note">
-																				<div class="star_content clearfix">
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																					<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																				</div>
-																				<span class="span-review-main">1 Review(s)</span>
-																			</div>
-
-
-
-
-																			<div class="product-price-and-shipping">
-
-
-
-																				<span class="sr-only">Price</span>
-																				<span itemprop="price" class="price">€826.00</span>
-
-
-
-
-																			</div> -->
-
-																</div>
-
-																<!-- <div class="cart_quickview">
-																			<div class="sp-cart-box no-variants">
-																				<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
-																					<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
-																					<input type="hidden" name="id_product" value="48" class="product_page_product_id">
-																					<input type="hidden" name="qty" value="1">
-																					<button class="btn_style2 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
-																						ADD TO CART
-																					</button>
-																				</form>
-																			</div>
-
-																			<a class="btn_style2 quick-view sp_quickview" href="#" data-link-action="quickview">
-																				<i class="icon-search1"></i>
-																			</a>
-
-																		</div> -->
-															</div>
-														</div>
-													</article>
-
-
-
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="spfilter_bg2">
-						<div class="container">
-							<div class="row">
-								<div class="spfilterproducts5 col-xs-12 clearfix">
-									<div class="sp_simple_products spfilter-products buttons_style3 show_dots no_margin_right clearfix " id="spfilter_products_5" data-hook="displayFilterproducts5">
-										<div class="spfp-wrap" data-SPFP_DISPLAY_TITLE="1" data-SPFP_CLS_SFX="" data-SPFP_STATUS="1" data-SPFP_HOOK_INTO="displayFilterproducts5" data-SPFP_TYPE_SHOW="1" data-SPFP_ROW="4" data-SPFP_COLUMN1="1" data-SPFP_COLUMN2="1" data-SPFP_COLUMN3="1" data-SPFP_COLUMN4="1" data-SPFP_AUTOPLAY="0" data-SPFP_COUNTDOWN_TIMER="0" data-SPFP_FEATURED_RANDOMIZE="1" data-SPFP_SELECT_SOURCE="featured_products" data-SPFP_DATE_TO="" data-SPFP_CATIDS="2,13,16,72,101" data-SPFP_ORDERBY="name" data-SPFP_DIRECTION="DESC" data-SPFP_LIMIT="8" data-SPFP_IDMODULE="5">
-											<div class="title_tabs">
-												<div class="title-module module-title">
-													Compu-Flow™ Family Products
-												</div>
-												<div class="sub-title"></div>
-											</div>
-											<div class="products_banner hook_displayFilterproducts5">
-												<div class="products spfp-products t_8_4  clearfix">
-													<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
-
-														<article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="47" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
-															<div class="thumbnail-container clearfix">
-																<div class="product-image">
-
-																	<a href="coronavirus-prevention/47-vestibulum-vehicula-accumsan.html" class="thumbnail product-thumbnail">
-																		<img src="<?= base_url('resources/landingpage/img/products/1.png'); ?>" alt="Vestibulum vehicula accumsan" data-full-size-image-url="../1330-large_default/vestibulum-vehicula-accumsan.jpg">
-																	</a>
-
-
-																	<ul class="sp-product-flags">
-																	</ul>
-																	<ul class="sp-product-flags flags-right">
-																	</ul>
-
-
-																	<a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
-																		<i class="icon-search1"></i>
-																	</a>
-
-																</div>
-
-																<div class="product-info">
-																	<!-- <a class="cat_default" href="13-coronavirus-prevention.html">DC_0058</a>
+					</div>-->
+                    <div class="spfilter_bg2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="spfilterproducts5 col-xs-12 clearfix">
+                                    <div class="sp_simple_products spfilter-products buttons_style3 show_dots no_margin_right clearfix " id="spfilter_products_5" data-hook="displayFilterproducts5">
+                                        <div class="spfp-wrap" data-SPFP_DISPLAY_TITLE="1" data-SPFP_CLS_SFX="" data-SPFP_STATUS="1" data-SPFP_HOOK_INTO="displayFilterproducts5" data-SPFP_TYPE_SHOW="1" data-SPFP_ROW="4" data-SPFP_COLUMN1="1" data-SPFP_COLUMN2="1" data-SPFP_COLUMN3="1" data-SPFP_COLUMN4="1" data-SPFP_AUTOPLAY="0" data-SPFP_COUNTDOWN_TIMER="0" data-SPFP_FEATURED_RANDOMIZE="1" data-SPFP_SELECT_SOURCE="featured_products" data-SPFP_DATE_TO="" data-SPFP_CATIDS="2,13,16,72,101" data-SPFP_ORDERBY="name" data-SPFP_DIRECTION="DESC" data-SPFP_LIMIT="8" data-SPFP_IDMODULE="5">
+                                            <div class="title_tabs">
+                                                <div class="title-module module-title">
+                                                    Compu-Flow™ Family Products
+
+                                                </div>
+                                                <div class="sub-title"></div>
+                                            </div>
+                                            <div class="products_banner hook_displayFilterproducts5">
+                                                <div class="products spfp-products t_8_4  clearfix">
+                                                    <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+
+
+                                                        <article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="47" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+                                                            <div class="thumbnail-container clearfix">
+                                                                <div class="product-image">
+
+                                                                    <a href="<?= ("SmartMag") ? './SmartMag' : 'SmartMag' ;?>" class="thumbnail product-thumbnail">
+                                                                        <img src="<?= base_url('resources/landingpage/img/products/1.png'); ?>" alt="Vestibulum vehicula accumsan" data-full-size-image-url="../1330-large_default/vestibulum-vehicula-accumsan.jpg">
+                                                                    </a>
+
+
+                                                                    <ul class="sp-product-flags">
+                                                                    </ul>
+                                                                    <ul class="sp-product-flags flags-right">
+                                                                    </ul>
+
+
+                                                                    <!-- <a class="btn_style3 quick-view btn-primary" href="<?= ("SmartMag") ? './SmartMag' : 'SmartMag' ;?>" >
+                                                                        <i class="icon-search1"></i>
+                                                                    </a> -->
+
+                                                                </div>
+
+                                                                <div class="product-info">
+                                                                    <!-- <a class="cat_default" href="13-coronavirus-prevention.html">DC_0058</a>
 
 																			<h1 class="h3 product-title" itemprop="name"><a href="coronavirus-prevention/47-vestibulum-vehicula-accumsan.html">  FLUJÓMETRO MAGNÉTICO DE INSERCIÓN DE UN SOLO PUNTO, "SMART-MAG" DE COMPU-FLOW™</a></h1> -->
 
@@ -943,35 +641,35 @@
 
 
 
-																	<div class="comments_note">
-																		<div class="star_content clearfix">
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																		</div>
-																		<span class="span-review-main">2 Review(s)</span>
-																	</div>
+                                                                    <div class="comments_note">
+                                                                        <div class="star_content clearfix">
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <span class="span-review-main">2 Review(s)</span>
+                                                                    </div>
 
 
 
 
-																	<div class="product-price-and-shipping">
+                                                                    <div class="product-price-and-shipping">
 
 
 
-																		<span class="sr-only">Name</span>
-																		<span itemprop="price" class="price">COMPU-FLOW™ "SMART-MAG" SINGLE POINT INSERTION MAGNETIC FLOWMETER</span>
+                                                                        <span class="sr-only">Name</span>
+                                                                        <span itemprop="price" class="price">COMPU-FLOW™ "SMART-MAG" SINGLE POINT INSERTION MAGNETIC FLOWMETER</span>
 
 
 
 
-																	</div>
+                                                                    </div>
 
-																	<!-- <div class="cart_quickview">
+                                                                    <!-- <div class="cart_quickview">
 																				<div class="sp-cart-box">
-																					<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+																					<form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
 																						<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
 																						<input type="hidden" name="id_product" value="47" class="product_page_product_id">
 																						<input type="hidden" name="qty" value="1">
@@ -981,37 +679,37 @@
 																					</form>
 																				</div>
 																			</div> -->
-																</div>
-															</div>
-														</article>
+                                                                </div>
+                                                            </div>
+                                                        </article>
 
-													</div>
-													<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
-
-														<article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="51" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
-															<div class="thumbnail-container clearfix">
-																<div class="product-image">
-
-																	<a href="fitness/51-phasellus-placerat-ultrice.html" class="thumbnail product-thumbnail">
-																		<img src="<?= base_url('resources/landingpage/img/products/2.png'); ?>" alt="Phasellus placerat ultrice" data-full-size-image-url="../1344-large_default/phasellus-placerat-ultrice.jpg">
-																	</a>
+                                                    </div>
+                                                    <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 
-																	<ul class="sp-product-flags">
-																	</ul>
-																	<ul class="sp-product-flags flags-right">
-																	</ul>
+                                                        <article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="51" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+                                                            <div class="thumbnail-container clearfix">
+                                                                <div class="product-image">
+
+                                                                    <a href="<?= ("C6_Portable_Doppler_Ultrason") ? './C6_Portable_Doppler_Ultrason' : 'C6_Portable_Doppler_Ultrason' ;?>" class="thumbnail product-thumbnail">
+                                                                        <img src="<?= base_url('resources/landingpage/img/products/2.png'); ?>" alt="Phasellus placerat ultrice" data-full-size-image-url="../1344-large_default/phasellus-placerat-ultrice.jpg">
+                                                                    </a>
 
 
-																	<a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
-																		<i class="icon-search1"></i>
-																	</a>
+                                                                    <ul class="sp-product-flags">
+                                                                    </ul>
+                                                                    <ul class="sp-product-flags flags-right">
+                                                                    </ul>
 
-																</div>
 
-																<div class="product-info">
-																	<!-- <a class="cat_default" href="16-fitness.html">Compu-Flow™-Portable-Ultrasonic-Doppler-Flow-Meter-5</a>
+                                                                    <!-- <a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
+                                                                        <i class="icon-search1"></i>
+                                                                    </a> -->
+
+                                                                </div>
+
+                                                                <div class="product-info">
+                                                                    <!-- <a class="cat_default" href="16-fitness.html">Compu-Flow™-Portable-Ultrasonic-Doppler-Flow-Meter-5</a>
 
 																			<h1 class="h3 product-title" itemprop="name"><a href="fitness/51-phasellus-placerat-ultrice.html">COMPU-FLOW™ PORTABLE DOPPLER FLOW METER, C6 </a></h1> -->
 
@@ -1019,35 +717,35 @@
 
 
 
-																	<div class="comments_note">
-																		<div class="star_content clearfix">
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																		</div>
-																		<span class="span-review-main">0 Review(s)</span>
-																	</div>
+                                                                    <div class="comments_note">
+                                                                        <div class="star_content clearfix">
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <span class="span-review-main">0 Review(s)</span>
+                                                                    </div>
 
 
 
 
-																	<div class="product-price-and-shipping">
+                                                                    <div class="product-price-and-shipping">
 
 
 
-																		<span class="sr-only">Name</span>
-																		<span itemprop="price" class="price">Compu-Flow™-Portable-Ultrasonic-Doppler-Flow-Meter-5</span>
+                                                                        <span class="sr-only">Name</span>
+                                                                        <span itemprop="price" class="price">Compu-Flow™-Portable-Ultrasonic-Doppler-Flow-Meter-5</span>
 
 
 
 
-																	</div>
+                                                                    </div>
 
-																	<!-- <div class="cart_quickview">
+                                                                    <!-- <div class="cart_quickview">
 																				<div class="sp-cart-box">
-																					<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+																					<form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
 																						<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
 																						<input type="hidden" name="id_product" value="51" class="product_page_product_id">
 																						<input type="hidden" name="qty" value="1">
@@ -1057,37 +755,37 @@
 																					</form>
 																				</div>
 																			</div> -->
-																</div>
-															</div>
-														</article>
+                                                                </div>
+                                                            </div>
+                                                        </article>
 
-													</div>
-													<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
-
-														<article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="49" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
-															<div class="thumbnail-container clearfix">
-																<div class="product-image">
-
-																	<a href="coronavirus-prevention/49-copy-of-duis-malesuada-urna-euismod.html" class="thumbnail product-thumbnail">
-																		<img src="<?= base_url('resources/landingpage/img/products/3.png'); ?>" alt="Curabitur molestie tellus" data-full-size-image-url="../1338-large_default/copy-of-duis-malesuada-urna-euismod.jpg">
-																	</a>
+                                                    </div>
+                                                    <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 
-																	<ul class="sp-product-flags">
-																	</ul>
-																	<ul class="sp-product-flags flags-right">
-																	</ul>
+                                                        <article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="49" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+                                                            <div class="thumbnail-container clearfix">
+                                                                <div class="product-image">
+
+                                                                    <a href="<?= ("EconoMag") ? './EconoMag' : 'EconoMag' ;?>" class="thumbnail product-thumbnail">
+                                                                        <img src="<?= base_url('resources/landingpage/img/products/3.png'); ?>" alt="Curabitur molestie tellus" data-full-size-image-url="../1338-large_default/copy-of-duis-malesuada-urna-euismod.jpg">
+                                                                    </a>
 
 
-																	<a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
-																		<i class="icon-search1"></i>
-																	</a>
+                                                                    <ul class="sp-product-flags">
+                                                                    </ul>
+                                                                    <ul class="sp-product-flags flags-right">
+                                                                    </ul>
 
-																</div>
 
-																<div class="product-info">
-																	<!-- <a class="cat_default" href="13-coronavirus-prevention.html">Compu-Flow™-Smart-Mag-Magnetic-Flow-Meter-1-1</a>
+                                                                    <!-- <a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
+                                                                        <i class="icon-search1"></i>
+                                                                    </a> -->
+
+                                                                </div>
+
+                                                                <div class="product-info">
+                                                                    <!-- <a class="cat_default" href="13-coronavirus-prevention.html">Compu-Flow™-Smart-Mag-Magnetic-Flow-Meter-1-1</a>
 
 																			<h1 class="h3 product-title" itemprop="name"><a href="coronavirus-prevention/49-copy-of-duis-malesuada-urna-euismod.html">  COMPU-FLOW™ "ECONO-MAG" SINGLE POINT INSERTION MAGNETIC FLOWMETER </a></h1> -->
 
@@ -1095,75 +793,75 @@
 
 
 
-																	<div class="comments_note">
-																		<div class="star_content clearfix">
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																		</div>
-																		<span class="span-review-main">1 Review(s)</span>
-																	</div>
+                                                                    <div class="comments_note">
+                                                                        <div class="star_content clearfix">
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <span class="span-review-main">1 Review(s)</span>
+                                                                    </div>
 
 
 
 
-																	<div class="product-price-and-shipping">
+                                                                    <div class="product-price-and-shipping">
 
 
 
-																		<span class="sr-only">Name</span>
-																		<span itemprop="price" class="price">Compu-Flow™-Smart-Mag-Magnetic-Flow-Meter-1-1</span>
+                                                                        <span class="sr-only">Name</span>
+                                                                        <span itemprop="price" class="price">COMPU-FLOW™ "ECONO-MAG" SINGLE POINT INSERTION MAGNETIC FLOWMETER</span>
 
 
 
 
-																	</div>
+                                                                    </div>
 
-																	<div class="cart_quickview">
-																		<div class="sp-cart-box">
-																			<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
-																				<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
-																				<input type="hidden" name="id_product" value="49" class="product_page_product_id">
-																				<input type="hidden" name="qty" value="1">
-																				<button class="btn_style3 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
-																					<i class="icon-shopping-cart1"></i>
-																				</button>
-																			</form>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</article>
+                                                                    <!-- <div class="cart_quickview">
+                                                                        <div class="sp-cart-box">
+                                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                                                <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
+                                                                                <input type="hidden" name="id_product" value="49" class="product_page_product_id">
+                                                                                <input type="hidden" name="qty" value="1">
+                                                                                <button class="btn_style3 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
+                                                                                    <i class="icon-shopping-cart1"></i>
+                                                                                </button>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div> -->
+                                                                </div>
+                                                            </div>
+                                                        </article>
 
-													</div>
-													<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
-
-														<article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="52" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
-															<div class="thumbnail-container clearfix">
-																<div class="product-image">
-
-																	<a href="family-care/52-quisque-ut-arcu-porta.html" class="thumbnail product-thumbnail">
-																		<img src="<?= base_url('resources/landingpage/img/products/4.png'); ?>" alt="Quisque ut arcu porta" data-full-size-image-url="../1350-large_default/quisque-ut-arcu-porta.jpg">
-																	</a>
+                                                    </div>
+                                                    <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 
-																	<ul class="sp-product-flags">
-																	</ul>
-																	<ul class="sp-product-flags flags-right">
-																	</ul>
+                                                        <article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="52" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+                                                            <div class="thumbnail-container clearfix">
+                                                                <div class="product-image">
+
+                                                                    <a href="<?= ("DopplerC6D") ? './DopplerC6D' : 'DopplerC6D' ;?>" class="thumbnail product-thumbnail">
+                                                                        <img src="<?= base_url('resources/landingpage/img/products/4.png'); ?>" alt="Quisque ut arcu porta" data-full-size-image-url="../1350-large_default/quisque-ut-arcu-porta.jpg">
+                                                                    </a>
 
 
-																	<a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
-																		<i class="icon-search1"></i>
-																	</a>
+                                                                    <ul class="sp-product-flags">
+                                                                    </ul>
+                                                                    <ul class="sp-product-flags flags-right">
+                                                                    </ul>
 
-																</div>
 
-																<div class="product-info">
-																	<!-- <a class="cat_default" href="72-family-care.html">Compu-Flow™-Fixed-Ultrasonic-Doppler-Flow-Meter-1</a>
+                                                                    <!-- <a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
+                                                                        <i class="icon-search1"></i>
+                                                                    </a> -->
+
+                                                                </div>
+
+                                                                <div class="product-info">
+                                                                    <!-- <a class="cat_default" href="72-family-care.html">Compu-Flow™-Fixed-Ultrasonic-Doppler-Flow-Meter-1</a>
 
 																			<h1 class="h3 product-title" itemprop="name"><a href="family-care/52-quisque-ut-arcu-porta.html">COMPU-FLOW™ C6 DOPPLER ULTRASONIC FLOW METER </a></h1> -->
 
@@ -1171,75 +869,75 @@
 
 
 
-																	<div class="comments_note">
-																		<div class="star_content clearfix">
-																			<i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
-																		</div>
-																		<span class="span-review-main">0 Review(s)</span>
-																	</div>
+                                                                    <div class="comments_note">
+                                                                        <div class="star_content clearfix">
+                                                                            <i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class=" icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <span class="span-review-main">0 Review(s)</span>
+                                                                    </div>
 
 
 
 
-																	<div class="product-price-and-shipping">
+                                                                    <div class="product-price-and-shipping">
 
 
 
-																		<span class="sr-only">Name</span>
-																		<span itemprop="price" class="price">Compu-Flow™-Fixed-Ultrasonic-Doppler-Flow-Meter-1</span>
+                                                                        <span class="sr-only">Name</span>
+                                                                        <span itemprop="price" class="price">Compu-Flow™-Fixed-Ultrasonic-Doppler-Flow-Meter-1</span>
 
 
 
 
-																	</div>
+                                                                    </div>
 
-																	<div class="cart_quickview">
-																		<div class="sp-cart-box">
-																			<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
-																				<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
-																				<input type="hidden" name="id_product" value="52" class="product_page_product_id">
-																				<input type="hidden" name="qty" value="1">
-																				<button class="btn_style3 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
-																					<i class="icon-shopping-cart1"></i>
-																				</button>
-																			</form>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</article>
+                                                                    <!-- <div class="cart_quickview">
+                                                                        <div class="sp-cart-box">
+                                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                                                <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
+                                                                                <input type="hidden" name="id_product" value="52" class="product_page_product_id">
+                                                                                <input type="hidden" name="qty" value="1">
+                                                                                <button class="btn_style3 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
+                                                                                    <i class="icon-shopping-cart1"></i>
+                                                                                </button>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div> -->
+                                                                </div>
+                                                            </div>
+                                                        </article>
 
-													</div>
-													<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
-
-														<article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="50" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
-															<div class="thumbnail-container clearfix">
-																<div class="product-image">
-
-																	<a href="coronavirus-prevention/50-maximus-nibh-hendrerit.html" class="thumbnail product-thumbnail">
-																		<img src="<?= base_url('resources/landingpage/img/products/5.png'); ?>" alt="Maximus nibh hendrerit lorem" data-full-size-image-url="../1341-large_default/maximus-nibh-hendrerit.jpg">
-																	</a>
+                                                    </div>
+                                                    <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 
-																	<ul class="sp-product-flags">
-																	</ul>
-																	<ul class="sp-product-flags flags-right">
-																	</ul>
+                                                        <article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="50" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+                                                            <div class="thumbnail-container clearfix">
+                                                                <div class="product-image">
+
+                                                                    <a href="<?= ("Aplications") ? './Aplications' : 'Aplications' ;?>" class="thumbnail product-thumbnail">
+                                                                        <img src="<?= base_url('resources/landingpage/img/products/5.png'); ?>" alt="Maximus nibh hendrerit lorem" data-full-size-image-url="../1341-large_default/maximus-nibh-hendrerit.jpg">
+                                                                    </a>
 
 
-																	<a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
-																		<i class="icon-search1"></i>
-																	</a>
+                                                                    <ul class="sp-product-flags">
+                                                                    </ul>
+                                                                    <ul class="sp-product-flags flags-right">
+                                                                    </ul>
 
-																</div>
 
-																<div class="product-info">
-																	<!-- <a class="cat_default" href="13-coronavirus-prevention.html">Compu-Flow™-Portable-Transit-Time-Ultrasonic-Flow-Meter-1</a>
+                                                                    <!-- <a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
+                                                                        <i class="icon-search1"></i>
+                                                                    </a> -->
+
+                                                                </div>
+
+                                                                <div class="product-info">
+                                                                    <!-- <a class="cat_default" href="13-coronavirus-prevention.html">Compu-Flow™-Portable-Transit-Time-Ultrasonic-Flow-Meter-1</a>
 
 																			<h1 class="h3 product-title" itemprop="name"><a href="coronavirus-prevention/50-maximus-nibh-hendrerit.html">COMPU-FLOW™ PORTABLE, TRANSIT TIME TYPE FLOW METER </a></h1> -->
 
@@ -1247,76 +945,76 @@
 
 
 
-																	<div class="comments_note">
-																		<div class="star_content clearfix">
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																		</div>
-																		<span class="span-review-main">1 Review(s)</span>
-																	</div>
+                                                                    <div class="comments_note">
+                                                                        <div class="star_content clearfix">
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <span class="span-review-main">1 Review(s)</span>
+                                                                    </div>
 
 
 
 
-																	<div class="product-price-and-shipping">
+                                                                    <div class="product-price-and-shipping">
 
 
 
-																		<span class="sr-only">Name</span>
-																		<span itemprop="price" class="price">Compu-Flow™-Portable-Transit-Time-Ultrasonic-Flow-Meter-1</span>
+                                                                        <span class="sr-only">Name</span>
+                                                                        <span itemprop="price" class="price">Compu-Flow™-Portable-Transit-Time-Ultrasonic-Flow-Meter-1</span>
 
 
 
 
-																	</div>
+                                                                    </div>
 
-																	<div class="cart_quickview">
-																		<div class="sp-cart-box">
-																			<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
-																				<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
-																				<input type="hidden" name="id_product" value="50" class="product_page_product_id">
-																				<input type="hidden" name="qty" value="1">
-																				<button class="btn_style3 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
-																					<i class="icon-shopping-cart1"></i>
-																				</button>
-																			</form>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</article>
+                                                                    <!-- <div class="cart_quickview">
+                                                                        <div class="sp-cart-box">
+                                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                                                <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
+                                                                                <input type="hidden" name="id_product" value="50" class="product_page_product_id">
+                                                                                <input type="hidden" name="qty" value="1">
+                                                                                <button class="btn_style3 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
+                                                                                    <i class="icon-shopping-cart1"></i>
+                                                                                </button>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div> -->
+                                                                </div>
+                                                            </div>
+                                                        </article>
 
-													</div>
-													<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
-
-														<article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="54" data-id-product-attribute="278" itemscope itemtype="http://schema.org/Product">
-															<div class="thumbnail-container clearfix">
-																<div class="product-image">
-
-																	<a href="coronavirus-prevention/54-278-praesent-ut-hendrerit-lorem.html#/2-size-m/14-color-blue" class="thumbnail product-thumbnail">
-																		<img src="<?= base_url('resources/landingpage/img/products/6.png'); ?>" alt="Etiam volutpat commodo sem..." data-full-size-image-url="../1361-large_default/praesent-ut-hendrerit-lorem.jpg">
-																	</a>
+                                                    </div>
+                                                    <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 
-																	<ul class="sp-product-flags">
-																		<li class="long_label product-flag new">New product</li>
-																	</ul>
-																	<ul class="sp-product-flags flags-right">
-																	</ul>
+                                                        <article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="54" data-id-product-attribute="278" itemscope itemtype="http://schema.org/Product">
+                                                            <div class="thumbnail-container clearfix">
+                                                                <div class="product-image">
+
+                                                                    <a href="<?= ("Aplications") ? './Aplications' : 'Aplications' ;?>" class="thumbnail product-thumbnail">
+                                                                        <img src="<?= base_url('resources/landingpage/img/products/6.png'); ?>" alt="Etiam volutpat commodo sem..." data-full-size-image-url="../1361-large_default/praesent-ut-hendrerit-lorem.jpg">
+                                                                    </a>
 
 
-																	<a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
-																		<i class="icon-search1"></i>
-																	</a>
+                                                                    <ul class="sp-product-flags">
+                                                                        <li class="long_label product-flag new">New product</li>
+                                                                    </ul>
+                                                                    <ul class="sp-product-flags flags-right">
+                                                                    </ul>
 
-																</div>
 
-																<div class="product-info">
-																	<!-- <a class="cat_default" href="13-coronavirus-prevention.html">Compu-Flow™-Portable-Universal-Flow-Display-4</a>
+                                                                    <!-- <a class="btn_style3 quick-view btn-primary" href="#" data-link-action="quickview">
+                                                                        <i class="icon-search1"></i>
+                                                                    </a> -->
+
+                                                                </div>
+
+                                                                <div class="product-info">
+                                                                    <!-- <a class="cat_default" href="13-coronavirus-prevention.html">Compu-Flow™-Portable-Universal-Flow-Display-4</a>
 
 																			<h1 class="h3 product-title" itemprop="name"><a href="coronavirus-prevention/54-278-praesent-ut-hendrerit-lorem.html#/2-size-m/14-color-blue">COMPU-FLOW™ UNIVERSAL FLOW CONTROLLER</a></h1> -->
 
@@ -1324,50 +1022,50 @@
 
 
 
-																	<div class="comments_note">
-																		<div class="star_content clearfix">
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																			<i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
-																		</div>
-																		<span class="span-review-main">2 Review(s)</span>
-																	</div>
+                                                                    <div class="comments_note">
+                                                                        <div class="star_content clearfix">
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                            <i class="icon-star1 icon_star1_active" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <span class="span-review-main">2 Review(s)</span>
+                                                                    </div>
 
 
 
 
-																	<div class="product-price-and-shipping">
+                                                                    <div class="product-price-and-shipping">
 
 
 
-																		<span class="sr-only">Name</span>
-																		<span itemprop="price" class="price">Compu-Flow™-Portable-Universal-Flow-Display-4</span>
+                                                                        <span class="sr-only">Name</span>
+                                                                        <span itemprop="price" class="price">Compu-Flow™-Portable-Universal-Flow-Display-4</span>
 
 
 
 
-																	</div>
+                                                                    </div>
 
-																	<div class="cart_quickview">
-																		<div class="sp-cart-box">
-																			<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
-																				<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
-																				<input type="hidden" name="id_product" value="54" class="product_page_product_id">
-																				<input type="hidden" name="qty" value="1">
-																				<button class="btn_style3 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
-																					<i class="icon-shopping-cart1"></i>
-																				</button>
-																			</form>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</article>
+                                                                    <!-- <div class="cart_quickview">
+                                                                        <div class="sp-cart-box">
+                                                                            <form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+                                                                                <input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
+                                                                                <input type="hidden" name="id_product" value="54" class="product_page_product_id">
+                                                                                <input type="hidden" name="qty" value="1">
+                                                                                <button class="btn_style3 ajax-add-to-cart product-btn cart-button btn btn-primary" data-button-action="add-to-cart" type="submit">
+                                                                                    <i class="icon-shopping-cart1"></i>
+                                                                                </button>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div> -->
+                                                                </div>
+                                                            </div>
+                                                        </article>
 
-													</div>
-													<!-- <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    </div>
+                                                    <!-- <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 
 																<article class="sp-simple-slider product-miniature buttons_style3 js-product-miniature" data-id-product="44" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
@@ -1428,7 +1126,7 @@
 
 																			<div class="cart_quickview">
 																				<div class="sp-cart-box">
-																					<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+																					<form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
 																						<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
 																						<input type="hidden" name="id_product" value="44" class="product_page_product_id">
 																						<input type="hidden" name="qty" value="1">
@@ -1504,7 +1202,7 @@
 
 																			<div class="cart_quickview">
 																				<div class="sp-cart-box">
-																					<form action="http://ps.ariestheme.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
+																					<form action="http://ps.magentech.com/themes/sp_medisine/en/cart" method="post" class="add-to-cart-or-refresh">
 																						<input type="hidden" name="token" value="f3d7bf34746272305bf478d135c28c31">
 																						<input type="hidden" name="id_product" value="45" class="product_page_product_id">
 																						<input type="hidden" name="qty" value="1">
@@ -1519,249 +1217,222 @@
 																</article>
 
 															</div> -->
-												</div>
-											</div>
-										</div>
-									</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-								</div>
-							</div>
-						</div>
-					</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sp_filter_3col  ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="spfilterproducts2 col-md-4 col-xs-12 block clearfix">
+                                    <div class="spfilter-products product_style2 buttons_style2 show_nav clearfix " id="spfilter_products_2" data-hook="displayFilterproducts2">
+                                        <div class="spfp-wrap" data-SPFP_DISPLAY_TITLE="1" data-SPFP_CLS_SFX="" data-SPFP_STATUS="1" data-SPFP_HOOK_INTO="displayFilterproducts2" data-SPFP_TYPE_SHOW="2" data-SPFP_ROW="1" data-SPFP_COLUMN1="1" data-SPFP_COLUMN2="1" data-SPFP_COLUMN3="2" data-SPFP_COLUMN4="2" data-SPFP_AUTOPLAY="0" data-SPFP_COUNTDOWN_TIMER="0" data-SPFP_FEATURED_RANDOMIZE="0" data-SPFP_SELECT_SOURCE="other_products" data-SPFP_DATE_TO="2023-01-20 00:00:00" data-SPFP_CATIDS="2" data-SPFP_ORDERBY="rand" data-SPFP_DIRECTION="DESC" data-SPFP_LIMIT="3" data-SPFP_IDMODULE="2">
+                                            <div class="title_tabs">
+                                                <div class="title-module module-title" title="New Arrivals">
+                                                    New Arrivals
+                                                </div>
+                                            </div>
 
-					<div class="spbrands_bg">
-						<div class="container">
-							<div class="row">
-								<div class="spbrands1 col-xs-12 clearfix">
-
-									<!-- SP Manufacture Slider -->
-									<div class="sp_brands moduletable our_brands">
-										<div class="title_tabs">
-											<div class="title-module module-title">
-												<span>Featured Brands</span>
-											</div>
-										</div>
-
-										<div id="sp_manu_slider_1_1641356261548437531" class="sp-manu-slider sp-preload" data-id_spmanufactureslider="1" data-display_title_module="1" data-moduleclass_sfx="our_brands" data-active="1" data-hook="displayManufacturerSlider" data-nb_column1="6" data-nb_column2="5" data-nb_column3="4" data-nb_column4="3" data-target="_blank" data-manuid="3,4,5,6,7,8,9,10" data-manu_image_size="none" data-autoplay="0" data-autoplay_timeout="2000" data-autoplaySpeed="2000" data-delay="500" data-duration="1" data-effect="flipInX" data-autoplayHoverPause="1" data-startPosition="0" data-mouseDrag="1" data-touchDrag="1" data-pullDrag="1" data-dots="0" data-nav="1" data-loop="1">
-											<div class="sp-loading"></div>
-											<div id="spmanufactureslider-1" class="spmanufactureslider" data-delay="500" data-duration="1" data-effect="flipInX">
-												<div class="item">
-													<div class="item-wrap">
-														<div class="item-img item-height">
-															<div class="item-img-info">
-																<a href="brand/3-brand-1.html" target=&quot;_blank&quot; title="Brand 1">
-																	<img src="../img/m/3.jpg" class="logo_manufacturer" title="Brand 1" alt="Brand 1" width="200" height="200" />
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="item">
-													<div class="item-wrap">
-														<div class="item-img item-height">
-															<div class="item-img-info">
-																<a href="brand/4-brand-2.html" target=&quot;_blank&quot; title="Brand 2">
-																	<img src="../img/m/4.jpg" class="logo_manufacturer" title="Brand 2" alt="Brand 2" width="200" height="200" />
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="item">
-													<div class="item-wrap">
-														<div class="item-img item-height">
-															<div class="item-img-info">
-																<a href="brand/5-brand-3.html" target=&quot;_blank&quot; title="Brand 3">
-																	<img src="../img/m/5.jpg" class="logo_manufacturer" title="Brand 3" alt="Brand 3" width="200" height="200" />
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="item">
-													<div class="item-wrap">
-														<div class="item-img item-height">
-															<div class="item-img-info">
-																<a href="brand/6-brand-4.html" target=&quot;_blank&quot; title="Brand 4">
-																	<img src="../img/m/6.jpg" class="logo_manufacturer" title="Brand 4" alt="Brand 4" width="200" height="200" />
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="item">
-													<div class="item-wrap">
-														<div class="item-img item-height">
-															<div class="item-img-info">
-																<a href="brand/7-brand-5.html" target=&quot;_blank&quot; title="Brand 5">
-																	<img src="../img/m/7.jpg" class="logo_manufacturer" title="Brand 5" alt="Brand 5" width="200" height="200" />
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="item">
-													<div class="item-wrap">
-														<div class="item-img item-height">
-															<div class="item-img-info">
-																<a href="brand/8-brand-6.html" target=&quot;_blank&quot; title="Brand 6">
-																	<img src="../img/m/8.jpg" class="logo_manufacturer" title="Brand 6" alt="Brand 6" width="200" height="200" />
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="item">
-													<div class="item-wrap">
-														<div class="item-img item-height">
-															<div class="item-img-info">
-																<a href="brand/9-brand-7.html" target=&quot;_blank&quot; title="Brand 7">
-																	<img src="../img/m/9.jpg" class="logo_manufacturer" title="Brand 7" alt="Brand 7" width="200" height="200" />
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="item">
-													<div class="item-wrap">
-														<div class="item-img item-height">
-															<div class="item-img-info">
-																<a href="brand/10-brand-8.html" target=&quot;_blank&quot; title="Brand 8">
-																	<img src="../img/m/10.jpg" class="logo_manufacturer" title="Brand 8" alt="Brand 8" width="200" height="200" />
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</div>
-									<!-- /SP Manufacture Slider -->
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="sp_blog_testimonial">
-						<div class="container">
-							<div class="row">
-								<div class="sp_blog col-lg-6 col-md-7 col-xs-12 clearfix">
-									<div class="block lastestnews">
-										<div class="title_tabs">
-											<div class="title-module module-title" title="Latest Blog">
-												Latest Blog
-											</div>
-										</div>
-										<div class="lastest_posts lastest_posts_vertical">
-											<div class="blog-item">
-												<div class="post post_num_0 clearfix">
-													<div class="post-inner">
-														<div class="post_image">
-															<a href="smartblog/6_Proin-posuere-euismod-nisi.html"><img alt="Proin posuere euismod nisi" class="feat_img" src="../modules/smartblog/images/6-home-default.jpg" width="360" height="240"></a>
-														</div>
-
-														<div class="post_content">
-															<div class="post_date">
-																February 9, 2020
-															</div>
-															<div class="sdsarticleHeader">
-																<a href="smartblog/6_Proin-posuere-euismod-nisi.html">Proin posuere euismod nisi</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="post post_num_1 clearfix">
-													<div class="post-inner">
-														<div class="post_image">
-															<a href="smartblog/5_Vestibulum-volutpat-venenatis.html"><img alt="Vestibulum volutpat venenatis" class="feat_img" src="../modules/smartblog/images/5-home-default.jpg" width="360" height="240"></a>
-														</div>
-
-														<div class="post_content">
-															<div class="post_date">
-																January 9, 2020
-															</div>
-															<div class="sdsarticleHeader">
-																<a href="smartblog/5_Vestibulum-volutpat-venenatis.html">Vestibulum volutpat venenatis</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="blog-item">
-												<div class="post post_num_2 clearfix">
-													<div class="post-inner">
-														<div class="post_image">
-															<a href="smartblog/4_share_the_love_for_prestashop_1_6.html"><img alt="Curabitur auctor vel diam id" class="feat_img" src="../modules/smartblog/images/4-home-default.jpg" width="360" height="240"></a>
-														</div>
-
-														<div class="post_content">
-															<div class="post_date">
-																June 6, 2019
-															</div>
-															<div class="sdsarticleHeader">
-																<a href="smartblog/4_share_the_love_for_prestashop_1_6.html">Curabitur auctor vel diam id</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="post post_num_3 clearfix">
-													<div class="post-inner">
-														<div class="post_image">
-															<a href="smartblog/3_answer_to_your_question_about_prestashop_1_6.html"><img alt="Nunc maximus mollis consequat" class="feat_img" src="../modules/smartblog/images/3-home-default.jpg" width="360" height="240"></a>
-														</div>
-
-														<div class="post_content">
-															<div class="post_date">
-																June 6, 2019
-															</div>
-															<div class="sdsarticleHeader">
-																<a href="smartblog/3_answer_to_your_question_about_prestashop_1_6.html">Nunc maximus mollis consequat</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="sp_testimonial col-lg-6 col-md-5 col-xs-12 clearfix">
-
-									<div class="moduletable sp_customhtml_3_16413562621630972982
-		 spcustom_html">
-										<div class="block-testimonial">
-											<div class="sptestimonial">
-												<div class="item-client">
-													<div class="client-say">This is a great design and i hope that we will create a website with a good signature. Magentech team is reactive and kind. Thanks for the help so far.</div>
-													<div class="client-info">
-														<div class="client-image"><img src="../themes/sp_medisine/assets/img/index1/client1.jpg" alt="" width="90" height="90" /></div>
-														<div class="client-title">Bugatti Veyron</div>
-														<div class="client-desc">Los Angeles</div>
-													</div>
-												</div>
-												<div class="item-client">
-													<div class="client-say">This is a great design and i hope that we will create a website with a good signature. Magentech team is reactive and kind. Thanks for the help so far.</div>
-													<div class="client-info">
-														<div class="client-image"><img src="../themes/sp_medisine/assets/img/index1/client2.jpg" alt="" width="90" height="90" /></div>
-														<div class="client-title">Amanda Cerny</div>
-														<div class="client-desc">Los Angeles</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+                                            <div class="products_banner hook_displayFilterproducts2">
+                                                <div class="products spfp-products t_3_1  ">
 
 
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</section>
-			<footer class="page-footer">
-				<!-- Footer content -->
+                                                    <article class="product-miniature js-product-miniature" data-id-product="45" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+                                                        <div class="thumbnail-container clearfix">
+                                                            <div class="product-image">
 
-			</footer>
-		</section>
-	</div>
+                                                                <a href="coronavirus-prevention/45-suspendisse-id-felis-libero.html" class="thumbnail product-thumbnail">
+                                                                    <img src="<?= base_url('resources/landingpage/img/about/open-book1.png'); ?>" width="200" height="200" alt="Suspendisse id felis libero" width="200" height="200" data-full-size-image-url="../1324-large_default/suspendisse-id-felis-libero.jpg">
+                                                                </a>
+
+
+
+                                                            </div>
+                                                            <div class="product-info-buttons clearfix">
+                                                                <div class="product-info clearfix">
+                                                                    <p>LECTURAS DE FLUJO PRECISAS AL INSTANTE.</p>
+                                                                    <p class="h3 product-title">Certificado por el NIST con< 0.5%.</p>
+                                                                            <br>
+                                                                            <br>
+                                                                            <br>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="spfilterproducts3 col-md-4 col-xs-12 block clearfix">
+                                    <div class="spfilter-products product_style2 buttons_style2 show_nav clearfix " id="spfilter_products_3" data-hook="displayFilterproducts3">
+                                        <div class="spfp-wrap" data-SPFP_DISPLAY_TITLE="1" data-SPFP_CLS_SFX="" data-SPFP_STATUS="1" data-SPFP_HOOK_INTO="displayFilterproducts3" data-SPFP_TYPE_SHOW="2" data-SPFP_ROW="1" data-SPFP_COLUMN1="1" data-SPFP_COLUMN2="1" data-SPFP_COLUMN3="2" data-SPFP_COLUMN4="2" data-SPFP_AUTOPLAY="0" data-SPFP_COUNTDOWN_TIMER="0" data-SPFP_FEATURED_RANDOMIZE="0" data-SPFP_SELECT_SOURCE="other_products" data-SPFP_DATE_TO="" data-SPFP_CATIDS="2" data-SPFP_ORDERBY="rand" data-SPFP_DIRECTION="DESC" data-SPFP_LIMIT="3" data-SPFP_IDMODULE="3">
+                                            <div class="title_tabs">
+                                                <div class="title-module module-title" title="Best sellers">
+                                                    Best sellers
+                                                </div>
+                                            </div>
+
+                                            <div class="products_banner hook_displayFilterproducts3">
+                                                <div class="products spfp-products t_3_1 owl-carousel ">
+
+
+                                                    <article class="product-miniature js-product-miniature" data-id-product="48" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+                                                        <div class="thumbnail-container clearfix">
+                                                            <div class="product-image">
+
+                                                                <a href="devices/48-duis-malesuada-urna-euismod.html" class="thumbnail product-thumbnail">
+                                                                    <img src="<?= base_url('resources/landingpage/img/about/layers.png'); ?>" width="370" height="370" alt="Duis malesuada urna euismod" width="370" height="370" data-full-size-image-url="../1332-large_default/duis-malesuada-urna-euismod.jpg">
+                                                                </a>
+
+
+                                                                <ul class="sp-product-flags">
+                                                                </ul>
+                                                                <ul class="sp-product-flags flags-right">
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="product-info-buttons clearfix">
+                                                                <div class="product-info clearfix">
+
+                                                                    <p>COMPACTO Y LIGERO.</p>
+                                                                    <p class="h3 product-title">El “Smart-Mag” de Compu-Flow™ , es el primer medidor de su clase que provee un revolucionario diseño compacto y ligero.</p>
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </article>
+
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="spfilterproducts4 col-md-4 col-xs-12 block clearfix">
+                                    <div class="spfilter-products product_style2 buttons_style2 show_nav clearfix " id="spfilter_products_4" data-hook="displayFilterproducts4">
+                                        <div class="spfp-wrap" data-SPFP_DISPLAY_TITLE="1" data-SPFP_CLS_SFX="" data-SPFP_STATUS="1" data-SPFP_HOOK_INTO="displayFilterproducts4" data-SPFP_TYPE_SHOW="2" data-SPFP_ROW="1" data-SPFP_COLUMN1="1" data-SPFP_COLUMN2="1" data-SPFP_COLUMN3="2" data-SPFP_COLUMN4="2" data-SPFP_AUTOPLAY="0" data-SPFP_COUNTDOWN_TIMER="0" data-SPFP_FEATURED_RANDOMIZE="1" data-SPFP_SELECT_SOURCE="featured_products" data-SPFP_DATE_TO="2021-06-03 00:00:00" data-SPFP_CATIDS="102" data-SPFP_ORDERBY="rand" data-SPFP_DIRECTION="DESC" data-SPFP_LIMIT="3" data-SPFP_IDMODULE="4">
+                                            <div class="title_tabs">
+                                                <div class="title-module module-title" title="Featured">
+                                                    Featured
+                                                </div>
+                                            </div>
+
+                                            <div class="products_banner hook_displayFilterproducts4">
+                                                <div class="products spfp-products t_3_1 owl-carousel ">
+
+
+                                                    <article class="product-miniature js-product-miniature" data-id-product="48" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+                                                        <div class="thumbnail-container clearfix">
+                                                            <div class="product-image">
+
+                                                                <a href="devices/48-duis-malesuada-urna-euismod.html" class="thumbnail product-thumbnail">
+                                                                    <img src="<?= base_url('resources/landingpage/img/about/location.png'); ?>" width="370" height="370" alt="Duis malesuada urna euismod" width="370" height="370" data-full-size-image-url="../1332-large_default/duis-malesuada-urna-euismod.jpg">
+                                                                </a>
+
+
+                                                                <ul class="sp-product-flags">
+                                                                </ul>
+                                                                <ul class="sp-product-flags flags-right">
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="product-info-buttons clearfix">
+                                                                <div class="product-info clearfix">
+                                                                    <p>UNA SOLUCIÓN LIMPIA PARA MEDIR EL FLUJO MULTI-INDUSTRIAL.</p>
+                                                                    <p class="h3 product-title">Ideado para medir, virtualmente cualquier flujo a base de agua en la mayoría de las industrias.</p>
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </article>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="sp_blog_testimonial">
+                        <div class="container">
+                            <div class="row">
+                                <div class="sp_blog col-lg-12 col-md-12 col-xs-12 clearfix">
+                                    <div class="our-client-say block-clientsay">
+																			<br>
+																			<br>
+                                        <div class="bonus-title"><strong>Why Choose Us</strong></div>
+                                        <div class="nav-style-1 hover-to-show absolute-nav">
+                                            <div class="block-content">
+                                                <div class="nav-style-3 hover-to-show absolute-nav">
+                                                    <div class="owl-carousel owl-theme">
+                                                        <div class="item">
+                                                            <p class="client-say">
+“Compu-Flow Doppler flow meter clamps very quickly onto existing pipes, and there's no need to shut down for installation or calibration. It can be removed and replaced very easily on the pipe.”</p>
+
+                                                        </div>
+                                                        <div class="item">
+                                                            <p class="client-say">“El medidor ultrasónico de caudal, Doppler de Compu-flow supera las deficiencias de otros medidores de flujo, proporcionando lecturas de flujo precisas y estables.”</p>
+																														<br>
+
+                                                        </div>
+                                                        <div class="item">
+                                                            <p class="client-say">"Hemos tenido muchisimos buenos comentarios acerca del medidor Mag.
+
+Yo nunca había visto una aceptación tan entusiasta de un nuevo producto en mucho tiempo.
+
+Creo que ya tenemos uno vendido a Pensacola, la ciudad de Dothan,  A Al le gustaría probar uno para ver si funciona en sus pozos de agua."</p>
+                                                              <!--<div class="content">
+                                                                <div class="image"><img class="mark-lazy lazyload" src="../../themes/sp_medisine/assets/img/index2/item-3.jpg" alt="" /></div>
+                                                                <h3>Shigeo Tokuda</h3>
+                                                                <p>New York, USA</p>
+                                                            </div>-->
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+    </div>
+</section>
+</section>
+<footer class="page-footer">
+    <!-- Footer content -->
+
+</footer>
+</section>
+</div>
 </section>

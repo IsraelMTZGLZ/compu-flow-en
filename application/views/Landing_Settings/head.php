@@ -9,9 +9,9 @@
     <meta name="keywords" content="best prestashop theme, e-commerce, marketplace, multivendor theme prestashop, prestashop, prestashop 1.7, technology theme, hitech theme, digital store">
     <link rel="alternate" href="index.html" hreflang="en-us">
 
-    <link rel="alternate" href="http://ps.ariestheme.com/themes/sp_medisine/ar/" hreflang="ar-sa">
-    <link rel="alternate" href="http://ps.ariestheme.com/themes/sp_medisine/fr/" hreflang="fr-fr">
-    <link rel="alternate" href="http://ps.ariestheme.com/themes/sp_medisine/es/" hreflang="es-es">
+    <link rel="alternate" href="http://ps.magentech.com/themes/sp_medisine/ar/" hreflang="ar-sa">
+    <link rel="alternate" href="http://ps.magentech.com/themes/sp_medisine/fr/" hreflang="fr-fr">
+    <link rel="alternate" href="http://ps.magentech.com/themes/sp_medisine/es/" hreflang="es-es">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" type="image/vnd.microsoft.icon" href="<?=base_url('resources/landingpage/themes/sp_medisine/img/logoCompuflow.png'); ?>">
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="<?= base_url('resources/landingpage/themes/sp_medisine/themes/sp_medisine/assets/cache/theme-e6d85e119.css'); ?>" type="text/css" media="all">
 
     <script type="text/javascript">
-        var blockwishlistController = "index.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action";
+        var blockwishlistController = "index.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action";
         var prestashop = {
             "cart": {
                 "products": [],
@@ -134,111 +134,111 @@
             },
             "shop": {
                 "name": "SP Medisine",
-                "logo": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/logo.png",
-                "stores_icon": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/logo_stores.png",
-                "favicon": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/favicon.ico"
+                "logo": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/logo.png",
+                "stores_icon": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/logo_stores.png",
+                "favicon": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/favicon.ico"
             },
             "urls": {
-                "base_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/",
-                "current_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/",
-                "shop_domain_url": "http:\/\/ps.ariestheme.com",
-                "img_ps_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/",
-                "img_cat_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/c\/",
-                "img_lang_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/l\/",
-                "img_prod_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/",
-                "img_manu_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/m\/",
-                "img_sup_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/su\/",
-                "img_ship_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/s\/",
-                "img_store_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/st\/",
-                "img_col_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/co\/",
-                "img_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/img\/",
-                "css_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/css\/",
-                "js_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/js\/",
-                "pic_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/upload\/",
+                "base_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/",
+                "current_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/",
+                "shop_domain_url": "http:\/\/ps.magentech.com",
+                "img_ps_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/",
+                "img_cat_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/c\/",
+                "img_lang_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/l\/",
+                "img_prod_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/",
+                "img_manu_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/m\/",
+                "img_sup_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/su\/",
+                "img_ship_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/s\/",
+                "img_store_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/st\/",
+                "img_col_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/co\/",
+                "img_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/img\/",
+                "css_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/css\/",
+                "js_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/js\/",
+                "pic_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/upload\/",
                 "pages": {
-                    "address": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/address",
-                    "addresses": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/addresses",
-                    "authentication": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/login",
-                    "cart": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/cart",
-                    "category": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=category",
-                    "cms": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=cms",
-                    "contact": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/contact-us",
-                    "discount": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/discount",
-                    "guest_tracking": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/guest-tracking",
-                    "history": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order-history",
-                    "identity": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/identity",
-                    "index": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/",
-                    "my_account": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/my-account",
-                    "order_confirmation": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order-confirmation",
-                    "order_detail": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=order-detail",
-                    "order_follow": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order-follow",
-                    "order": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order",
-                    "order_return": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=order-return",
-                    "order_slip": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/credit-slip",
-                    "pagenotfound": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/page-not-found",
-                    "password": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/password-recovery",
-                    "pdf_invoice": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-invoice",
-                    "pdf_order_return": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-order-return",
-                    "pdf_order_slip": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-order-slip",
-                    "prices_drop": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/prices-drop",
-                    "product": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=product",
-                    "search": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/search",
-                    "sitemap": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/sitemap",
-                    "stores": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/stores",
-                    "supplier": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/supplier",
-                    "register": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/login?create_account=1",
-                    "order_login": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order?login=1"
+                    "address": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/address",
+                    "addresses": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/addresses",
+                    "authentication": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/login",
+                    "cart": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/cart",
+                    "category": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=category",
+                    "cms": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=cms",
+                    "contact": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/contact-us",
+                    "discount": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/discount",
+                    "guest_tracking": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/guest-tracking",
+                    "history": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order-history",
+                    "identity": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/identity",
+                    "index": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/",
+                    "my_account": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/my-account",
+                    "order_confirmation": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order-confirmation",
+                    "order_detail": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=order-detail",
+                    "order_follow": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order-follow",
+                    "order": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order",
+                    "order_return": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=order-return",
+                    "order_slip": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/credit-slip",
+                    "pagenotfound": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/page-not-found",
+                    "password": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/password-recovery",
+                    "pdf_invoice": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-invoice",
+                    "pdf_order_return": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-order-return",
+                    "pdf_order_slip": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-order-slip",
+                    "prices_drop": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/prices-drop",
+                    "product": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=product",
+                    "search": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/search",
+                    "sitemap": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/sitemap",
+                    "stores": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/stores",
+                    "supplier": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/supplier",
+                    "register": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/login?create_account=1",
+                    "order_login": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order?login=1"
                 },
                 "alternative_langs": {
-                    "en-us": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/",
-                    "ar-sa": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/ar\/",
-                    "fr-fr": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/fr\/",
-                    "es-es": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/es\/"
+                    "en-us": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/",
+                    "ar-sa": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/ar\/",
+                    "fr-fr": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/fr\/",
+                    "es-es": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/es\/"
                 },
                 "theme_assets": "\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/",
                 "actions": {
-                    "logout": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/?mylogout="
+                    "logout": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/?mylogout="
                 },
                 "no_picture_image": {
                     "bySize": {
                         "cart_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-cart_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-cart_default.jpg",
                             "width": 100,
                             "height": 100
                         },
                         "small_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-small_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-small_default.jpg",
                             "width": 170,
                             "height": 170
                         },
                         "home_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-home_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-home_default.jpg",
                             "width": 300,
                             "height": 300
                         },
                         "medium_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-medium_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-medium_default.jpg",
                             "width": 370,
                             "height": 370
                         },
                         "large_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-large_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-large_default.jpg",
                             "width": 800,
                             "height": 800
                         }
                     },
                     "small": {
-                        "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-cart_default.jpg",
+                        "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-cart_default.jpg",
                         "width": 100,
                         "height": 100
                     },
                     "medium": {
-                        "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-home_default.jpg",
+                        "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-home_default.jpg",
                         "width": 300,
                         "height": 300
                     },
                     "large": {
-                        "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-large_default.jpg",
+                        "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-large_default.jpg",
                         "width": 800,
                         "height": 800
                     },
@@ -264,7 +264,7 @@
             "breadcrumb": {
                 "links": [{
                     "title": "Home",
-                    "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/"
+                    "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/"
                 }],
                 "count": 1
             },
@@ -278,13 +278,13 @@
             "debug": false
         };
         var productsAlreadyTagged = [];
-        var psemailsubscription_subscription = "index.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/ps_emailsubscription\/subscription";
-        var removeFromWishlistUrl = "index.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action?action=deleteProductFromWishlist";
-        var wishlistAddProductToCartUrl = "index.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action?action=addProductToCart";
-        var wishlistUrl = "index.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/view";
+        var psemailsubscription_subscription = "index.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/ps_emailsubscription\/subscription";
+        var removeFromWishlistUrl = "index.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action?action=deleteProductFromWishlist";
+        var wishlistAddProductToCartUrl = "index.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action?action=addProductToCart";
+        var wishlistUrl = "index.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/view";
     </script>
 
-    <div class="wishlist-add-to" data-url="http://ps.ariestheme.com/themes/sp_medisine/en/module/blockwishlist/action?action=getAllWishlist">
+    <div class="wishlist-add-to" data-url="http://ps.magentech.com/themes/sp_medisine/en/module/blockwishlist/action?action=getAllWishlist">
         <div class="wishlist-modal modal fade" :class="{show: !isHidden}" tabindex="-1" role="dialog" aria-modal="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -297,7 +297,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <choose-list @hide="toggleModal" :product-id="productId" :product-attribute-id="productAttributeId" :quantity="quantity" url="module/blockwishlist/actione2ad.html?action=getAllWishlist" add-url="http://ps.ariestheme.com/themes/sp_medisine/en/module/blockwishlist/action?action=addProductToWishlist" empty-text="No list found."></choose-list>
+                        <choose-list @hide="toggleModal" :product-id="productId" :product-attribute-id="productAttributeId" :quantity="quantity" url="module/blockwishlist/actione2ad.html?action=getAllWishlist" add-url="http://ps.magentech.com/themes/sp_medisine/en/module/blockwishlist/action?action=addProductToWishlist" empty-text="No list found."></choose-list>
                     </div>
                     <div class="modal-footer">
                         <a @click="openNewWishlistModal" class="wishlist-add-to-new">
@@ -311,7 +311,7 @@
         </div>
     </div>
 
-    <div class="wishlist-create" data-url="http://ps.ariestheme.com/themes/sp_medisine/en/module/blockwishlist/action?action=createNewWishlist" data-title="Create wishlist" data-label="Wishlist name" data-placeholder="Add name" data-cancel-text="Cancel" data-create-text="Create wishlist" data-length-text="List title is too short">
+    <div class="wishlist-create" data-url="http://ps.magentech.com/themes/sp_medisine/en/module/blockwishlist/action?action=createNewWishlist" data-title="Create wishlist" data-label="Wishlist name" data-placeholder="Add name" data-cancel-text="Cancel" data-create-text="Create wishlist" data-length-text="List title is too short">
         <div class="wishlist-modal modal fade" :class="{show: !isHidden}" tabindex="-1" role="dialog" aria-modal="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -341,7 +341,7 @@
         <div class="modal-backdrop fade" :class="{in: !isHidden}">
         </div>
     </div>
-    <div class="wishlist-delete" data-delete-product-url="http://ps.ariestheme.com/themes/sp_medisine/en/module/blockwishlist/action?action=deleteProductFromWishlist" data-title="Remove product from wishlist" data-title-list="Delete wishlist" data-placeholder='The product will be removed from "%nameofthewishlist%".' data-cancel-text="Cancel" data-delete-text="Remove" data-delete-text-list="Delete">
+    <div class="wishlist-delete" data-delete-product-url="http://ps.magentech.com/themes/sp_medisine/en/module/blockwishlist/action?action=deleteProductFromWishlist" data-title="Remove product from wishlist" data-title-list="Delete wishlist" data-placeholder='The product will be removed from "%nameofthewishlist%".' data-cancel-text="Cancel" data-delete-text="Remove" data-delete-text-list="Delete">
         <div class="wishlist-modal modal fade" :class="{show: !isHidden}" tabindex="-1" role="dialog" aria-modal="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -419,9 +419,9 @@
     <meta name="keywords" content="">
 
     <link rel="alternate" href="contact-us.html" hreflang="en-us">
-    <link rel="alternate" href="http://ps.ariestheme.com/themes/sp_medisine/ar/contact-us" hreflang="ar-sa">
-    <link rel="alternate" href="http://ps.ariestheme.com/themes/sp_medisine/fr/contact-us" hreflang="fr-fr">
-    <link rel="alternate" href="http://ps.ariestheme.com/themes/sp_medisine/es/contact-us" hreflang="es-es">
+    <link rel="alternate" href="http://ps.magentech.com/themes/sp_medisine/ar/contact-us" hreflang="ar-sa">
+    <link rel="alternate" href="http://ps.magentech.com/themes/sp_medisine/fr/contact-us" hreflang="fr-fr">
+    <link rel="alternate" href="http://ps.magentech.com/themes/sp_medisine/es/contact-us" hreflang="es-es">
 
 
 
@@ -440,10 +440,8 @@
     <link rel="stylesheet" href="<?= base_url('resources/landingpage/themes/sp_medisine/themes/sp_medisine/assets/cache/theme-e6d85e119.css'); ?>" type="text/css" media="all">
 
 
-
-
     <script type="text/javascript">
-        var blockwishlistController = "contact-us.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action";
+        var blockwishlistController = "contact-us.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action";
         var prestashop = {
             "cart": {
                 "products": [],
@@ -557,111 +555,111 @@
             },
             "shop": {
                 "name": "SP Medisine",
-                "logo": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/logo.png",
-                "stores_icon": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/logo_stores.png",
-                "favicon": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/favicon.ico"
+                "logo": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/logo.png",
+                "stores_icon": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/logo_stores.png",
+                "favicon": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/favicon.ico"
             },
             "urls": {
-                "base_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/",
-                "current_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/contact-us",
-                "shop_domain_url": "http:\/\/ps.ariestheme.com",
-                "img_ps_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/",
-                "img_cat_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/c\/",
-                "img_lang_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/l\/",
-                "img_prod_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/",
-                "img_manu_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/m\/",
-                "img_sup_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/su\/",
-                "img_ship_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/s\/",
-                "img_store_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/st\/",
-                "img_col_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/co\/",
-                "img_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/img\/",
-                "css_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/css\/",
-                "js_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/js\/",
-                "pic_url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/upload\/",
+                "base_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/",
+                "current_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/contact-us",
+                "shop_domain_url": "http:\/\/ps.magentech.com",
+                "img_ps_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/",
+                "img_cat_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/c\/",
+                "img_lang_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/l\/",
+                "img_prod_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/",
+                "img_manu_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/m\/",
+                "img_sup_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/su\/",
+                "img_ship_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/s\/",
+                "img_store_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/st\/",
+                "img_col_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/co\/",
+                "img_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/img\/",
+                "css_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/css\/",
+                "js_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/js\/",
+                "pic_url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/upload\/",
                 "pages": {
-                    "address": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/address",
-                    "addresses": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/addresses",
-                    "authentication": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/login",
-                    "cart": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/cart",
-                    "category": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=category",
-                    "cms": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=cms",
-                    "contact": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/contact-us",
-                    "discount": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/discount",
-                    "guest_tracking": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/guest-tracking",
-                    "history": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order-history",
-                    "identity": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/identity",
-                    "index": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/",
-                    "my_account": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/my-account",
-                    "order_confirmation": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order-confirmation",
-                    "order_detail": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=order-detail",
-                    "order_follow": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order-follow",
-                    "order": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order",
-                    "order_return": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=order-return",
-                    "order_slip": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/credit-slip",
-                    "pagenotfound": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/page-not-found",
-                    "password": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/password-recovery",
-                    "pdf_invoice": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-invoice",
-                    "pdf_order_return": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-order-return",
-                    "pdf_order_slip": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-order-slip",
-                    "prices_drop": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/prices-drop",
-                    "product": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/index.php?controller=product",
-                    "search": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/search",
-                    "sitemap": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/sitemap",
-                    "stores": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/stores",
-                    "supplier": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/supplier",
-                    "register": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/login?create_account=1",
-                    "order_login": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/order?login=1"
+                    "address": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/address",
+                    "addresses": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/addresses",
+                    "authentication": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/login",
+                    "cart": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/cart",
+                    "category": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=category",
+                    "cms": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=cms",
+                    "contact": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/contact-us",
+                    "discount": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/discount",
+                    "guest_tracking": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/guest-tracking",
+                    "history": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order-history",
+                    "identity": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/identity",
+                    "index": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/",
+                    "my_account": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/my-account",
+                    "order_confirmation": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order-confirmation",
+                    "order_detail": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=order-detail",
+                    "order_follow": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order-follow",
+                    "order": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order",
+                    "order_return": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=order-return",
+                    "order_slip": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/credit-slip",
+                    "pagenotfound": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/page-not-found",
+                    "password": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/password-recovery",
+                    "pdf_invoice": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-invoice",
+                    "pdf_order_return": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-order-return",
+                    "pdf_order_slip": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=pdf-order-slip",
+                    "prices_drop": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/prices-drop",
+                    "product": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/index.php?controller=product",
+                    "search": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/search",
+                    "sitemap": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/sitemap",
+                    "stores": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/stores",
+                    "supplier": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/supplier",
+                    "register": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/login?create_account=1",
+                    "order_login": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/order?login=1"
                 },
                 "alternative_langs": {
-                    "en-us": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/contact-us",
-                    "ar-sa": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/ar\/contact-us",
-                    "fr-fr": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/fr\/contact-us",
-                    "es-es": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/es\/contact-us"
+                    "en-us": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/contact-us",
+                    "ar-sa": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/ar\/contact-us",
+                    "fr-fr": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/fr\/contact-us",
+                    "es-es": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/es\/contact-us"
                 },
                 "theme_assets": "\/themes\/sp_medisine\/themes\/sp_medisine\/assets\/",
                 "actions": {
-                    "logout": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/?mylogout="
+                    "logout": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/?mylogout="
                 },
                 "no_picture_image": {
                     "bySize": {
                         "cart_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-cart_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-cart_default.jpg",
                             "width": 100,
                             "height": 100
                         },
                         "small_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-small_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-small_default.jpg",
                             "width": 170,
                             "height": 170
                         },
                         "home_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-home_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-home_default.jpg",
                             "width": 300,
                             "height": 300
                         },
                         "medium_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-medium_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-medium_default.jpg",
                             "width": 370,
                             "height": 370
                         },
                         "large_default": {
-                            "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-large_default.jpg",
+                            "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-large_default.jpg",
                             "width": 800,
                             "height": 800
                         }
                     },
                     "small": {
-                        "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-cart_default.jpg",
+                        "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-cart_default.jpg",
                         "width": 100,
                         "height": 100
                     },
                     "medium": {
-                        "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-home_default.jpg",
+                        "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-home_default.jpg",
                         "width": 300,
                         "height": 300
                     },
                     "large": {
-                        "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/img\/p\/en-default-large_default.jpg",
+                        "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/p\/en-default-large_default.jpg",
                         "width": 800,
                         "height": 800
                     },
@@ -687,10 +685,10 @@
             "breadcrumb": {
                 "links": [{
                     "title": "Home",
-                    "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/"
+                    "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/"
                 }, {
                     "title": "Contact us",
-                    "url": "http:\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/contact-us"
+                    "url": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/en\/contact-us"
                 }],
                 "count": 2
             },
@@ -704,10 +702,10 @@
             "debug": false
         };
         var productsAlreadyTagged = [];
-        var psemailsubscription_subscription = "contact-us.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/ps_emailsubscription\/subscription";
-        var removeFromWishlistUrl = "contact-us.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action?action=deleteProductFromWishlist";
-        var wishlistAddProductToCartUrl = "contact-us.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action?action=addProductToCart";
-        var wishlistUrl = "contact-us.html\/\/ps.ariestheme.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/view";
+        var psemailsubscription_subscription = "contact-us.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/ps_emailsubscription\/subscription";
+        var removeFromWishlistUrl = "contact-us.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action?action=deleteProductFromWishlist";
+        var wishlistAddProductToCartUrl = "contact-us.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/action?action=addProductToCart";
+        var wishlistUrl = "contact-us.html\/\/ps.magentech.com\/themes\/sp_medisine\/en\/module\/blockwishlist\/view";
     </script>
 
 
