@@ -1397,16 +1397,16 @@
 
                                                         </div>
                                                         <div class="item">
-                                                            <p class="client-say">“El medidor ultrasónico de caudal, Doppler de Compu-flow supera las deficiencias de otros medidores de flujo, proporcionando lecturas de flujo precisas y estables.”</p>
+                                                            <p class="client-say">“The Compu-flow Doppler Ultrasonic Flow Meter overcomes the shortcomings of other flow meters by providing accurate and stable flow readings.”</p>
 																														<br>
 
                                                         </div>
                                                         <div class="item">
-                                                            <p class="client-say">"Hemos tenido muchisimos buenos comentarios acerca del medidor Mag.
+                                                            <p class="client-say">"We have had a lot of good feedback about the Mag Meter.
 
-Yo nunca había visto una aceptación tan entusiasta de un nuevo producto en mucho tiempo.
+I have never seen such an enthusiastic acceptance of a new product in a long time.
 
-Creo que ya tenemos uno vendido a Pensacola, la ciudad de Dothan,  A Al le gustaría probar uno para ver si funciona en sus pozos de agua."</p>
+I think we already have one sold to Pensacola, the city of Dothan, Al would like to try one to see if it works on their water wells."</p>
                                                               <!--<div class="content">
                                                                 <div class="image"><img class="mark-lazy lazyload" src="../../themes/sp_medisine/assets/img/index2/item-3.jpg" alt="" /></div>
                                                                 <h3>Shigeo Tokuda</h3>

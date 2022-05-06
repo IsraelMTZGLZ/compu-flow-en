@@ -76,49 +76,49 @@
 
                             <div class="row">
                               <div class="col-lg-4">
-                                  <h5>•Agua de riego</h5>
+                                  <h5>•Irrigation water</h5>
                                   <br>
-                                  <h5>•Abrasivos</h5>
+                                  <h5>•Abrasives</h5>
                                   <br>
-                                  <h5>•Asfaltos</h5>
+                                  <h5>•Asphalts</h5>
                                   <br>
-                                  <h5>•Concreto</h5>
+                                  <h5>•Concrete</h5>
                                   <br>
-                                  <h5>•Flujos de dragado</h5>
+                                  <h5>•Dredge flows</h5>
                                   <br>
-                                  <h5>•Lodo de barrenado</h5>
+                                  <h5>•Drilling mud </h5>
                                   <br>
-                                  <h5>•Y la mayoría de líquidos con sólidos suspendidos o burbujas de aire.</h5>
+                                  <h5>•And most liquids with suspended solids or air bubbles.</h5>
                               </div>
                               <div class="col-lg-4">
-                                <h5>•Contaminantes grandes</h5>
+                                <h5>•Big polluters</h5>
                                 <br>
-                                <h5>•Substancias extremadamente viscosas</h5>
+                                <h5>•Extremely viscous substances</h5>
                                 <br>
-                                <h5>•Concreto</h5>
+                                <h5>•Concrete</h5>
                                 <br>
-                                <h5>•Mortero</h5>
+                                <h5>•Mortar</h5>
                                 <br>
-                                <h5>•Desechos peligrosos</h5>
+                                <h5>•Hazardous waste</h5>
                                 <br>
-                                <h5>•Fangos y residuos municipales</h5>
+                                <h5>•Municipal sludge and waste</h5>
                                 <br>
-                                  <h5>•Pulpa de papel</h5>
+                                  <h5>•Paper pulp</h5>
                               </div>
                               <div class="col-lg-4">
-                                <h5>•Materiales para acabado de construcción</h5>
+                                <h5>•Construction materials</h5>
                                 <br>
-                                <h5>•Represas</h5>
+                                <h5>•Dams</h5>
                                 <br>
-                                <h5>•Desagües</h5>
+                                <h5>•Drains</h5>
                                 <br>
-                                <h5>•Sedimentos</h5>
+                                <h5>•Sediments</h5>
                                 <br>
-                                <h5>•Lodos</h5>
+                                <h5>•Sludge</h5>
                                 <br>
-                                <h5>•Concreto</h5>
+                                <h5>•Concrete</h5>
                                 <br>
-                                <h5>•Sólidos suspendidos</h5>
+                                <h5>•Suspended solids</h5>
                                 <br>
                               </div>
                             </div>
@@ -153,7 +153,7 @@
                         </div>
 
                         <div class="articleMeta sdsarticle-text">
-                            <h1 class="articleTitle sdstitle_block title" itemprop="headline">Industrias:</h1>
+                            <h1 class="articleTitle sdstitle_block title" itemprop="headline">industries:</h1>
                             <div class="metaComment article-info">
                             </div>
 
@@ -173,25 +173,25 @@
 
                             <div class="row">
                               <div class="col-lg-4">
-                                  <h5>  •Fabricantes de Bombas : Pruebas de rendimiento de las bombas</h5>
+                                  <h5>•Pump Manufacturers : Pump performance tests</h5>
                                   <br>
-                                  <h5>•Refinerías</h5>
+                                  <h5>•Refineries</h5>
                                   <br>
-                                  <h5>•Minería</h5>
+                                  <h5>•Mining</h5>
                               </div>
                               <div class="col-lg-4">
-                                <h5>•Gas metano de carbón (CSG)</h5>
+                                <h5>•Coal-fired methane gas (CSG)</h5>
                                 <br>
-                                <h5>•Petróleo y Gas</h5>
+                                <h5>•Oil and Gas</h5>
                                 <br>
-                                <h5>•Alimentos</h5>
+                                <h5>•Foods</h5>
                               </div>
                               <div class="col-lg-4">
-                                <h5>•Farmacéutico</h5>
+                                <h5>•Pharmacist</h5>
                                 <br>
-                                <h5>•Energia</h5>
+                                <h5>•Energy</h5>
                                 <br>
-                                <h5>•Embarques, Etc....</h5>
+                                <h5>•Boats, etc...</h5>
                               </div>
                             </div>
                         </div>

@@ -55,8 +55,8 @@
 							<div class="header-center-wrap">
 								<div class="box-menu1 clearfix">
 									<div id="_desktop_logo" class="logo_middle col-md-3">
-										<a href="http://ps.magentech.com/themes/sp_medisine/">
-											<img class="logo img-responsive" src="<?=base_url('resources/landingpage/themes/sp_medisine/img/Compu-Flow™-Flow-Meters-Logo.webp'); ?>" alt="SP Medisine">
+										<a href="<?= ("Inicio") ? './Inicio' : 'Inicio' ;?>">
+											<img class="logo img-responsive" src="<?=base_url('resources/landingpage/themes/sp_medisine/img/Compu-Flow™-Flow-Meters-Logo.webp'); ?>" alt="Compuflow">
 										</a>
 									</div>
 									<div id="call-hotline" class="col-md-2">
@@ -186,8 +186,8 @@
 								</div>
 								<div class="mobile-logo">
 
-									<a href="http://ps.magentech.com/themes/sp_medisine/">
-										<img src="../modules/spthemeconfigurator/patterns/logo-mobile-1.png" alt="SP Medisine">
+									<a href="<?= ("Inicio") ? './Inicio' : 'Inicio' ;?>">
+										<img src="<?=base_url('resources/landingpage/themes/sp_medisine/img/Compu-Flow™-Flow-Meters-Logo.webp'); ?>" alt="Compuflow">
 									</a>
 								</div>
 								<div class="mobile-cart">
@@ -212,12 +212,7 @@
 						<li class="nav-item">
 							<a class="nav-link active" data-toggle="tab" href="#mobile-menu-content" role="tab" aria-controls="mobile-menu-tab" aria-selected="true">Menu</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#mobile-account-content" role="tab" aria-controls="account-tab">Account</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#mobile-setting-content" role="tab" aria-controls="setting-tab">Setting</a>
-						</li>
+
 					</ul>
 					<div class="tab-content" id="nav-tabContent">
 						<div id="mobile-menu-content" class="tab-pane fade in active" role="tabpanel"></div>

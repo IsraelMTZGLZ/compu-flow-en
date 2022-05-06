@@ -10,7 +10,7 @@
                             <div class="newsletterContent col-xs-12 clearfix">
                                 <div class="newsletter_block_home_title">
                                     <div class="newsletter-title-footer">Compuflow</div>
-                                    <div class="newsletter-subtitle-footer">productos con la mas alta calidad, aportando durabilidad y fiabilidad.</div>
+                                    <div class="newsletter-subtitle-footer">products with the highest quality, providing durability and confidence.</div>
                                 </div>
                                 <!--<div class="content">
                                   <div class="image"><img class="mark-lazy lazyload" src="../../themes/sp_medisine/assets/img/index2/item-3.jpg" alt="" /></div>
@@ -150,9 +150,7 @@ spfooterlinks">
                                         <li>
                                             <a href="<?= ("C6_Portable_Doppler_Ultrason") ? './C6_Portable_Doppler_Ultrason' : 'C6_Portable_Doppler_Ultrason' ;?>">PORTABLE ULTRASONIC DOPPLER FLOW METER C6P</a>
                                         </li>
-                                        <li>
-                                            <a href="<?= ("ComparisonTable") ? './ComparisonTable' : 'ComparisonTable' ;?>">Comparison table with other meters.</a>
-                                        </li>
+                                    
 
                                     </ul>
 
@@ -174,7 +172,7 @@ spfooterlinks">
             <div class="container">
                 <div class="row">
                     <div class="payment col-md-6 col-sm-12 col-xs-12">
-                      
+
 
                     </div>
                     <div class="block-copyright col-md-6 col-sm-12 col-xs-12">

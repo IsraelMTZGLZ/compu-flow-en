@@ -554,7 +554,7 @@
                 "admin_notifications": []
             },
             "shop": {
-                "name": "SP Medisine",
+                "name": "Compuflow",
                 "logo": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/logo.png",
                 "stores_icon": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/logo_stores.png",
                 "favicon": "http:\/\/ps.magentech.com\/themes\/sp_medisine\/img\/favicon.ico"
